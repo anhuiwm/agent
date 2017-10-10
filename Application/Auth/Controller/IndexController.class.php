@@ -142,12 +142,26 @@ class IndexController extends Controller {
         $otdata['is_active']=0;
         $otdata['auth_group']=11;
         $otdata['orderid']=0;
+        $otdata['status']= 0;//待审核
+        $otdata['name']= I('post.name');//待审核
+        $otdata['apply_remark'] = I('post.remark');
+
        if( $id = $userData->add($otdata)){
-                   $this->redirect('Auth/Index/login','',2, '亲，申请成功');
+           $this->redirect('Auth/Index/login','',3, '亲，申请成功,请您等待客服联系!');
         }
         else{
            alert('系统错误,请联系管理员！');
            goback();
         }
+    }
+
+    public function sendsms(){
+
+         $mobile=I('post.mobile');
+         file_put_contents('wmsmslog.txt', "mobile:".$mobile.PHP_EOL, FILE_APPEND);
+         $res =array();
+         $res["err"] = 0;
+         $res["msg"] = "暂时忽略验证码";//"请求发送成功";
+         echo json_encode($res);
     }
 }

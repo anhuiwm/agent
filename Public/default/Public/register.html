@@ -41,15 +41,17 @@ function sendMessage() {
      InterValObj = window.setInterval(SetRemainTime, 1000); //启动计时器，1秒执行一次
 　　  //向后台发送处理数据
      var mobile = document.getElementById("mobile").value;
-         validatemobile(mobile);//调用上边的方法验证手机号码的正确性
-
+     validatemobile(mobile);//调用上边的方法验证手机号码的正确性
        $.ajax({
      　　type: "POST", //用POST方式传输     　　
-     　　url: 'f.php', //目标地址.
+         url: "{:U('Auth/Index/sendsms')}", //目标地址.
          dataType: "json", //数据格式:JSON
     　　 //data: "dealType=" + dealType +"&uid=" + uid + "&code=" + code,
-         data: "&a="+mobile,
-     　　success: function(json){
+         data: "mobile="+mobile,
+         success: function (json) {
+            // alert(json.err);
+             alert(json.msg);
+
             //if(json.msgid==1){//成功的处理
             //    alert(json.html);
             //}
@@ -98,9 +100,8 @@ function SetRemainTime() {
                 <br />-->
                 <input id="mobile" class="form-control" type="text" name="username" placeholder="手机号码">
                 <input id="btnSendCode" class="btn btn-success btn-block" type="button" value="免费发送验证码" onclick="sendMessage()">
-                <input type="password" class="form-control" placeholder="验证码(暂时忽略)" name="auth_code">
+                <input type="text" class="form-control" placeholder="验证码(暂时忽略)" name="auth_code">
                 <br />
-                <!--<button class="btn btn-success btn-block">免费发送验证码</button>-->
                 <input type="password" class="form-control" placeholder="密码" name="password">
                 <br />
                 <input type="password" class="form-control" placeholder="确认密码" name="confirm_password">

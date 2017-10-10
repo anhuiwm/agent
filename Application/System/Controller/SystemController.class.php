@@ -117,7 +117,7 @@ class SystemController extends Controller {
     }
 
     // 过滤器，排序，自定义页面
-    public function lists($map=false,$orderby=false,$self_page=false,$page_mun=10){
+    public function lists($map=false,$orderby=false,$self_page=false,$page_mun=50){
         $model_data=D($this->THIS_MODEL['table_name']);
         if (!$orderby) {
             if (isset($this->THIS_MODEL['default_order']) and !empty($this->THIS_MODEL['default_order'])) {
@@ -169,7 +169,6 @@ class SystemController extends Controller {
         $form_model=Form($this->THIS_MODEL['model_name']);
         $this->saerchForm=$form_model->search_form($filter_list);
         // 搜索表单###########################################################
-
         $art_str=toAry($this->THIS_MODEL['list_filed']);
         $this->title_lists=json_decode($art_str,true);
 

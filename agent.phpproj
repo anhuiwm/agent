@@ -735,13 +735,14 @@
     <Content Include="Public\boot\js\jquery-1.8.3.min.js" />
     <Content Include="Public\boot\js\jquery.js" />
     <Content Include="Public\boot\js\jquery1.42.min.js" />
+    <Content Include="Public\default\Agent\handle_res.html" />
     <Content Include="Public\default\Public\register - 副本.html" />
     <Content Include="Public\default\Public\register.html" />
     <Content Include="Public\default\Block\sec_menu.html" />
     <Content Include="Public\default\Agent\add_cashpoint.html" />
     <Content Include="Public\default\Agent\base.html" />
     <Content Include="Public\default\Agent\broadcast.html" />
-    <Content Include="Public\default\Agent\cdkey.html" />
+    <Content Include="Public\default\Agent\handle.html" />
     <Content Include="Public\default\Agent\chargelog.html" />
     <Content Include="Public\default\Agent\handleentity.html" />
     <Content Include="Public\default\Agent\index.html" />

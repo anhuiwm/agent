@@ -1,6 +1,4 @@
 <extend name="Public@Public/base" />
-
-
 <block name="main_content">
 <div class="filter">
     <div class="row frow">
@@ -27,18 +25,18 @@
           {$row}
           <if condition="$_GET['order_by'] neq $key.'|desc' and $_GET['order_by'] neq $key.'|asc'">
             <a href="{:add_url_parameter('order_by',$key.'|desc')}">
-              <i class="iconfont" title="通过{$row}排序">&#xe63b;</i>
+              <i class="iconfont" title="通过{$row}排序">&#xe63b;111111</i>
             </a>
 
           <elseif condition="$_GET['order_by'] eq $key.'|desc'"/>
             <a href="{:add_url_parameter('order_by',$key.'|asc')}">
-              <i class="iconfont" title="通过{$row}升序排序">&#xe65c;</i>
+              <i class="iconfont" title="通过{$row}升序排序">&#xe65c;22222</i>
             </a>
 
 
           <elseif condition="$_GET['order_by'] eq $key.'|asc'"/>
             <a href="{:add_url_parameter('order_by',$key.'|desc')}">
-              <i class="iconfont" title="已经通过{$row}降序排列">&#xe66e;</i>
+              <i class="iconfont" title="已经通过{$row}降序排列">&#xe66e;3333333</i>
             </a>
 
           </if>
@@ -49,7 +47,7 @@
           <!-- Split button -->
           <div class="btn-group">
             <if condition="$action_add_button neq false">
-            <a type="button" class="btn btn-info btn-sm" href="{:U($action_add_button['node_name'])}">{$action_add_button['title']}+</a>
+            <a type="button" class="btn btn-info btn-sm" href="{:U($action_add_button['node_name'])}">{:U($action_add_button['node_name'])} {$action_add_button['title']}+</a>
             </if>
             <if condition="$common_action_button neq false">
             <button type="button" class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -87,7 +85,7 @@
       </foreach>
       <td class="tright" scope="row">
         <foreach name="action_lists" item="act_row">
-        <a href="{:U($act_row['node_name'],array('id'=>$row['id']))}"  onclick="{$act_row['pre_func']}();" class="abtn">{$act_row['title']}</a>&nbsp;
+        <a href="{:U($act_row['node_name'],array('id'=>$row['id']))}"  onclick="{$act_row['pre_func']}();" class="abtn">{$act_row['node_name']}{$act_row['pre_func']} {$act_row['title']}</a>&nbsp;
         </foreach>
       </td>
     </tr>

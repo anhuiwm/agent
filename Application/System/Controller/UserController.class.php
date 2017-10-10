@@ -82,6 +82,9 @@ class UserController extends SystemController {
         }
 
       }
+
+      file_put_contents('wmlog.txt', "otdata:".$otdata.PHP_EOL, FILE_APPEND);
+
       $this->update($otdata);
     }
 

@@ -63,7 +63,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">选择服务器<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <foreach name="dbs" item="row" key="key">
-                                <li><a href="{:U('GmTool/Command/set_db',array('key'=>$key))}">{$key}</a></li>
+                                <li><a href="{:U('Agent/Command/set_db',array('key'=>$key))}">{$key}</a></li>
                             </foreach>
                         </ul>
                     </li>

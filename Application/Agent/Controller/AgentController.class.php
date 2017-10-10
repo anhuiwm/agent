@@ -63,7 +63,7 @@ class AgentController extends Controller {
         // 公共判断，用户是否有该节点权限。有的话才能访问
         $this->thisNode=auth_action($this->PUB_NODE);
         if (!$this->thisNode) {
-            $this->redirect('/Agent:index','',5, '对不起，你没有操作权限,5秒后跳转至首页...');
+            $this->redirect('/Agent/Index/index','',5, '对不起，你没有操作权限,5秒后跳转至首页...');
         }
 
 

@@ -172,7 +172,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">选择服务器<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <?php if(is_array($dbs)): foreach($dbs as $key=>$row): ?><li><a href="<?php echo U('GmTool/Command/set_db',array('key'=>$key));?>"><?php echo ($key); ?></a></li><?php endforeach; endif; ?>
+                            <?php if(is_array($dbs)): foreach($dbs as $key=>$row): ?><li><a href="<?php echo U('Agent/Command/set_db',array('key'=>$key));?>"><?php echo ($key); ?></a></li><?php endforeach; endif; ?>
                         </ul>
                     </li>
                 </ul>

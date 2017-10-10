@@ -1,0 +1,2071 @@
+[ 2017-10-09T13:52:43+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T13:55:24+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T13:56:00+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user_log` ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T13:56:03+08:00 ] 10.0.0.168 /index.php/Agent/Command/base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-09T13:56:33+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user_log` ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T13:56:35+08:00 ] 10.0.0.168 /index.php/Agent/Command/base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent/Command/base" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 模板不存在:./Public/default/GmTool/base.html
+
+[ 2017-10-09T13:57:22+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user_log` ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T13:57:23+08:00 ] 10.0.0.168 /index.php/Agent/Command/base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent/Command/base" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 253 行.
+NOTIC: [8] Undefined variable: saerchForm E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 268 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 278 行.
+NOTIC: [8] Undefined variable: list_img_show E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 292 行.
+NOTIC: [8] Undefined variable: title_lists E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 293 行.
+NOTIC: [8] Undefined variable: list_data E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 302 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T13:57:25+08:00 ] 10.0.0.168 /index.php/Agent/Command/add_cashpoint.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent/Command/add_cashpoint" ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 253 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 266 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 348 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T13:57:25+08:00 ] 10.0.0.168 /index.php/Agent/Command/add_cashpoint.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent/Command/add_cashpoint" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 253 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 266 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 348 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T13:57:26+08:00 ] 10.0.0.168 /index.php/Agent/Command/base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent/Command/base" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 253 行.
+NOTIC: [8] Undefined variable: saerchForm E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 268 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 278 行.
+NOTIC: [8] Undefined variable: list_img_show E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 292 行.
+NOTIC: [8] Undefined variable: title_lists E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 293 行.
+NOTIC: [8] Undefined variable: list_data E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 302 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T13:57:27+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user_log` ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T13:59:13+08:00 ] 10.0.0.168 /index.php/Agent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="agent" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user_log` WHERE `user_id` = 1000013 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T13:59:20+08:00 ] 10.0.0.168 /index.php/Agent/Command/base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="agent" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="494" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="496" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 253 行.
+NOTIC: [8] Undefined variable: saerchForm E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 268 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 278 行.
+NOTIC: [8] Undefined variable: list_img_show E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 292 行.
+NOTIC: [8] Undefined variable: title_lists E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 293 行.
+NOTIC: [8] Undefined variable: list_data E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 302 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T13:59:21+08:00 ] 10.0.0.168 /index.php/Agent/Command/add_cashpoint.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="agent" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="494" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="496" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="498" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 253 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 266 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 348 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T13:59:22+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="agent" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user_log` WHERE `user_id` = 1000013 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T14:33:31+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="agent" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user_log` WHERE `user_id` = 1000013 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T14:33:40+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="agent" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user_log` WHERE `user_id` = 1000013 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T14:35:20+08:00 ] 10.0.0.168 /index.php/Agent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="agent" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user_log` WHERE `user_id` = 1000013 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T14:35:22+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="agent" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user_log` WHERE `user_id` = 1000013 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T14:35:38+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user_log` ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T14:35:40+08:00 ] 10.0.0.168 /index.php/Agent/Command/base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent/Command/base" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 253 行.
+NOTIC: [8] Undefined variable: saerchForm E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 268 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 278 行.
+NOTIC: [8] Undefined variable: list_img_show E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 292 行.
+NOTIC: [8] Undefined variable: title_lists E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 293 行.
+NOTIC: [8] Undefined variable: list_data E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 302 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T14:35:42+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_user_log` ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T15:08:20+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( node_name="Agent" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user_log` ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( 1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'auth_group' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'user' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T16:53:05+08:00 ] 10.0.0.168 /index.php/Agent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="123" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user_log` WHERE `user_id` = 1000015 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T16:53:07+08:00 ] 10.0.0.168 /index.php/Agent/Command/base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="123" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="494" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="496" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 253 行.
+NOTIC: [8] Undefined variable: saerchForm E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 268 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 278 行.
+NOTIC: [8] Undefined variable: list_img_show E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 292 行.
+NOTIC: [8] Undefined variable: title_lists E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 293 行.
+NOTIC: [8] Undefined variable: list_data E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 302 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-09T16:53:09+08:00 ] 10.0.0.168 /index.php/Agent/Command/add_cashpoint.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="123" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="494" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="496" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="498" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 253 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 266 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 348 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T19:40:07+08:00 ] 10.0.0.168 /index.php/Agent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="12345678" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user_log` WHERE `user_id` = 1000018 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-09T19:40:09+08:00 ] 10.0.0.168 /index.php/Agent/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="12345678" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Index/index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_user_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user_log` WHERE `user_id` = 1000018 ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xq_shortcut` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_shortcut` LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 253 行.
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = '' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\0b8b10b5cc7a2d7b1911cedc030e7e7b.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T19:40:11+08:00 ] 10.0.0.168 /index.php/Agent/Command/base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="12345678" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="494" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="496" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/base' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 253 行.
+NOTIC: [8] Undefined variable: saerchForm E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 268 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 278 行.
+NOTIC: [8] Undefined variable: list_img_show E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 292 行.
+NOTIC: [8] Undefined variable: title_lists E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 293 行.
+NOTIC: [8] Undefined variable: list_data E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 302 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\bd013e11eeee69800fe621cc7141f472.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-09T19:40:12+08:00 ] 10.0.0.168 /index.php/Agent/Command/add_cashpoint.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `xq_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_user` WHERE ( username="12345678" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xq_auth_group` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="493" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="494" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="496" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id="498" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 74 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 78 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 83 行.
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+NOTIC: [8] Undefined variable: Think E:\agent\Application\Agent\Controller\AgentController.class.php 第 84 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `node_name` = 'Agent/Command/add_cashpoint' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE ( id=493 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xq_menu` WHERE `pid` = 493 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xq_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `xq_model` WHERE `model_name` = 'model' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 13 行.
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 15 行.
+NOTIC: [8] Use of undefined constant HTTP_USER_AGENT - assumed 'HTTP_USER_AGENT' E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+NOTIC: [8] Undefined variable: HTTP_SERVER_VARS E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 111 行.
+SQL: SELECT * FROM `xq_menu` WHERE `type` = 2 AND `pid` = 494  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: back_url E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 253 行.
+NOTIC: [8] Undefined variable: curuser E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 266 行.
+NOTIC: [8] Undefined index: act_info E:\agent\Application\Runtime\Cache\Agent\a870f38dba342ab755a3d849d259095a.php 第 348 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

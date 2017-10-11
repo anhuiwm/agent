@@ -1,6 +1,6 @@
 ﻿<extend name="Public@Public/base" />
 <block name="main_content">
-    <form method="post" class="myforms" >
+    <form method="post" class="myforms">
         &nbsp
         <select style="padding:4px 6px;border:1px solid #ccc;border-radius: 4px;width: 95px;" placeholder="审核状态" name="ispublic">
             <option value="">全部</option>
@@ -8,7 +8,7 @@
             <option value="1">审核通过</option>
             <option value="2">审核失败</option>
         </select>
-        <button  class="btn btn-info btn-sm ">查询</button>
+        <button class="btn btn-info btn-sm ">查询</button>
         <!--<button name="download"  onclick="download()" class="btn btn-info btn-sm ">下载</button>-->
     </form>
     <!--<script type="text/javascript">
@@ -47,12 +47,12 @@
                     <foreach name="title_lists" item="row1" key='key1'>
                         <td>
                             <if condition="isset($row[$key1])">{$row[$key1]}
-                            <else/>未定
+                                <else/>未定
                             </if>
                             <!--{$row[$key1]|get_model_value=""}-->
                         </td>
                     </foreach>
-                    
+
                     <td class="tright pad-r21" scope="row">
                         <a class="abtn" href="{:U('Agent/Command/handle_res',array('id'=>$row['id']))}"> 审核</a>
                         <!--{$row['id']}-->
@@ -78,7 +78,7 @@
         </thead>
     </table>
 
-  <!--<form action="" method="GET">
+    <!--<form action="" method="GET">
   <div class="page">{$page}&nbsp;
   <span>跳至<input type="text" name="p" value="{$_GET['p']}"  style="padding:4px 6px;border:1px solid #ccc;border-radius: 4px;width: 50px;">页</span><input type="submit"  class="btn btn-info btn-sm" value="确认">
   </div>

@@ -46,6 +46,24 @@ function action_log($action,$table_name="",$model_name="",$obj_id=""){
 }
 
 
+//给代理充值日志
+function charge_share_log($id, $hold_share,$charge_share){
+	$user_id=session('user.user_id');
+	if (isset($user_id) and !empty($user_id)) {
+		$log_data['user_id']=$user_id;
+		$log_data['agent_id']=$id;
+		$log_data['hold_share']=$hold_share;
+		$log_data['charge_share']=$charge_share;		
+		$log_data['times']=date("Y-m-d H:i:s",time());
+		$log_data['ip']=get_client_ip();
+		M('charge_share_log')->data($log_data)->add();
+	}
+	else{
+		die('用户未登录');
+	}
+	return true;
+}
+
 function form_verify($post=''){
 	return true;
 }

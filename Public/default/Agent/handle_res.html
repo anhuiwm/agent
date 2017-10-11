@@ -11,9 +11,9 @@
                             <div class="col-sm-10 mywidth form-item">
                                 <if condition="$key eq 'status'">
                                     <select style="padding:4px 6px;border:1px solid #ccc;border-radius: 4px;width: 95px;" placeholder="审核状态" name="{$key}">
-                                        <option value="0">等待审核</option>
-                                        <option value="1">审核通过</option>
-                                        <option value="2">审核失败</option>
+                                        <option value="1">等待审核</option>
+                                        <option value="2">审核通过</option>
+                                        <option value="3">审核失败</option>
                                     </select>
                                     <elseif condition="($key eq 'status') or ($key eq 'invite_code') or ($key eq 'handle_remark')" />
                                     <input type="text" class="form-control input-sm" name="{$key}" value="{$row}"><span></span>
@@ -44,5 +44,6 @@
             </div>
             <!-- 基本配置 -->
         </form>
-    </div><!--fms-->
+    </div>
+    <!--fms-->
 </block>

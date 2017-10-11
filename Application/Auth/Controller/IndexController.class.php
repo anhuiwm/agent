@@ -142,10 +142,10 @@ class IndexController extends Controller {
         $otdata['is_active']=0;
         $otdata['auth_group']=11;
         $otdata['orderid']=0;
-        $otdata['status']= 0;//待审核
-        $otdata['name']= I('post.name');//待审核
+        $otdata['status']= 1;//待审核
+        $otdata['name']= I('post.name');
         $otdata['apply_remark'] = I('post.remark');
-
+        $otdata['add_time'] = date("Y-m-d H:i:s");
        if( $id = $userData->add($otdata)){
            $this->redirect('Auth/Index/login','',3, '亲，申请成功,请您等待客服联系!');
         }

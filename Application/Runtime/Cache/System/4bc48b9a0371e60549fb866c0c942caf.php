@@ -283,25 +283,25 @@
       <?php if(is_array($title_lists)): foreach($title_lists as $key=>$row): ?><th>
           <?php echo ($row); ?>
           <?php if($_GET['order_by'] != $key.'|desc' and $_GET['order_by'] != $key.'|asc'): ?><a href="<?php echo add_url_parameter('order_by',$key.'|desc');?>">
-              <i class="iconfont" title="通过<?php echo ($row); ?>排序">&#xe63b;111111</i>
+              <i class="iconfont" title="通过<?php echo ($row); ?>排序">&#xe63b;</i>
             </a>
 
           <?php elseif($_GET['order_by'] == $key.'|desc'): ?>
             <a href="<?php echo add_url_parameter('order_by',$key.'|asc');?>">
-              <i class="iconfont" title="通过<?php echo ($row); ?>升序排序">&#xe65c;22222</i>
+              <i class="iconfont" title="通过<?php echo ($row); ?>升序排序">&#xe65c;</i>
             </a>
 
 
           <?php elseif($_GET['order_by'] == $key.'|asc'): ?>
             <a href="<?php echo add_url_parameter('order_by',$key.'|desc');?>">
-              <i class="iconfont" title="已经通过<?php echo ($row); ?>降序排列">&#xe66e;3333333</i>
+              <i class="iconfont" title="已经通过<?php echo ($row); ?>降序排列">&#xe66e;</i>
             </a><?php endif; ?>
 
         </th><?php endforeach; endif; ?>
       <th class="tright pad-r21" scope="row">
           <!-- Split button -->
           <div class="btn-group">
-            <?php if($action_add_button != false): ?><a type="button" class="btn btn-info btn-sm" href="<?php echo U($action_add_button['node_name']);?>"><?php echo U($action_add_button['node_name']);?> <?php echo ($action_add_button['title']); ?>+</a><?php endif; ?>
+            <?php if($action_add_button != false): ?><a type="button" class="btn btn-info btn-sm" href="<?php echo U($action_add_button['node_name']);?>"><!--<?php echo U($action_add_button['node_name']);?>--> <?php echo ($action_add_button['title']); ?>+</a><?php endif; ?>
             <?php if($common_action_button != false): ?><button type="button" class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               更多操作<span class="caret"></span>
             </button>
@@ -326,7 +326,7 @@
          <?php echo (get_model_value($row[$key1],$THIS_MODEL['model_name'],$key1)); ?>
         </td><?php endforeach; endif; ?>
       <td class="tright" scope="row">
-        <?php if(is_array($action_lists)): foreach($action_lists as $key=>$act_row): ?><a href="<?php echo U($act_row['node_name'],array('id'=>$row['id']));?>"  onclick="<?php echo ($act_row['pre_func']); ?>();" class="abtn"><?php echo ($act_row['node_name']); echo ($act_row['pre_func']); ?> <?php echo ($act_row['title']); ?></a>&nbsp;<?php endforeach; endif; ?>
+        <?php if(is_array($action_lists)): foreach($action_lists as $key=>$act_row): ?><a href="<?php echo U($act_row['node_name'],array('id'=>$row['id']));?>"  onclick="<?php echo ($act_row['pre_func']); ?>();" class="abtn"><!--<?php echo ($act_row['node_name']); echo ($act_row['pre_func']); ?>--> <?php echo ($act_row['title']); ?></a>&nbsp;<?php endforeach; endif; ?>
       </td>
     </tr><?php endforeach; endif; ?>
   </tbody>

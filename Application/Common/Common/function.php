@@ -47,13 +47,20 @@ function action_log($action,$table_name="",$model_name="",$obj_id=""){
 
 
 //给代理充值日志
-function charge_share_log($id, $hold_share,$charge_share){
+function charge_share_log($id, $hold_share,$charge_share,$real_charge,$should_charge,$game_id=0,$player_nick="",$mark="",$order_id="",$return_charge=0){
 	$user_id=session('user.user_id');
 	if (isset($user_id) and !empty($user_id)) {
 		$log_data['user_id']=$user_id;
 		$log_data['agent_id']=$id;
 		$log_data['hold_share']=$hold_share;
 		$log_data['charge_share']=$charge_share;		
+		$log_data['real_charge']=$real_charge;
+		$log_data['should_charge']=$should_charge;	
+        $log_data['game_id']=$game_id;
+		$log_data['player_nick']=$player_nick;	
+        $log_data['mark']=$mark;	
+        $log_data['order_id']=$order_id;
+        $log_data['return_charge']=$return_charge;
 		$log_data['times']=date("Y-m-d H:i:s",time());
 		$log_data['ip']=get_client_ip();
 		M('charge_share_log')->data($log_data)->add();
@@ -1060,6 +1067,23 @@ function get_dbs(){
         }
     }
     return $dbs;
+}
+
+
+function get_charge_range_names(){
+	$ranges= C('CHARGE_RANGE');
+    $range_names = array();
+    if( isset( $ranges )){
+        foreach($ranges as $key=>$value ){
+            $range_names[$key] = "[".$value["money"]."元]".$value["name"];
+        }
+    }
+    return $range_names;
+}
+
+function get_charge_range_money($id){
+    $ranges= C('CHARGE_RANGE');    
+    return $range[$id]["money"];
 }
 
 function set_db($key){

@@ -119,6 +119,11 @@ class SystemController extends Controller {
     // 过滤器，排序，自定义页面
     public function lists($map=false,$orderby=false,$self_page=false,$page_mun=50){
         $model_data=D($this->THIS_MODEL['table_name']);
+        //dump($this->THIS_MODEL['table_name']);
+        //dump($this->THIS_MODEL['table_name']);
+        //dump($this->THIS_MODEL['table_name']);
+
+
         if (!$orderby) {
             if (isset($this->THIS_MODEL['default_order']) and !empty($this->THIS_MODEL['default_order'])) {
                 $orderby=$this->THIS_MODEL['default_order'];
@@ -129,6 +134,11 @@ class SystemController extends Controller {
         if (!$map) {
             $map=array();
         }
+
+        if($this->THIS_MODEL['table_name'] == "auth_group"){
+           $map["id"]=array('neq','11');;
+        }
+
         if (IS_POST) {
 
             // 当post为空的时候，应该删除该项

@@ -1,0 +1,45 @@
+<extend name="Public@Public/base" />
+<block name="main_content">
+    <div class='fms'>
+        <form class="form-horizontal" action="" id="form_user" method="POST">
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="tab_39">
+                    <foreach name="data" item="row" key='key'>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">{$title[$key]}</label>
+                            <div class="col-sm-10 mywidth form-item">
+                                <input type="text" class="form-control input-sm" name="{$key}" value="{$row}" readonly="readonly"><span></span>
+                            </div>
+                        </div>
+                    </foreach>
+                    <div class="form-group">
+                        <strong class="col-sm-2 control-label">请您选择充值档位:</strong>
+                        <div class="col-sm-10 mywidth form-item">
+                            <select class="form-control input-sm" name="shopid">
+                                <foreach name="charge_ranges" item="row" key='key'>
+                                    <option value="{$key}">{$row}</option>
+                                </foreach>
+                            </select>
+                        </div>
+                    </div>
+              </div>
+          </div>
+
+
+
+            <div class="form-group form_sub">
+                <div class="form-group">
+                    <strong class="col-sm-2 control-label">您剩余额度</strong>
+                    <div class="col-sm-10 mywidth form-item">
+                        <input type="text" class="form-control input-sm" name="hold" value="{$hold}" readonly="readonly"><span></span>
+                    </div>
+                </div>
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" name="submit" value="提交" class="btn btn-default">
+                </div>
+            </div>
+            <!-- 基本配置 -->
+        </form>
+    </div>
+    <!--fms-->
+</block>

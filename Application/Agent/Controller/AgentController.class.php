@@ -41,7 +41,8 @@ class AgentController extends Controller {
 
     public static $GT_SetBlack = 7;
     public static $GT_UnSetBlack = 8;
-        public static $GT_Silent = 7;
+    public static $GT_Agent_Charge = 9;
+
     public function _initialize(){
         header("Content-Type:text/html; charset=utf-8");
         // 用户登录权限认证
@@ -141,7 +142,7 @@ class AgentController extends Controller {
         switch(strtoupper($method)){
             case 'GET':
                 $opts[CURLOPT_URL] = $url . '?' . http_build_query($params);
-                file_put_contents('wmgmlog.txt', "Getstr:".$opts[CURLOPT_URL].PHP_EOL, FILE_APPEND);
+                file_put_contents('wmagentlog.txt', "Getstr:".$opts[CURLOPT_URL].PHP_EOL, FILE_APPEND);
                 break;
             case 'POST':
                 //判断是否传输文件

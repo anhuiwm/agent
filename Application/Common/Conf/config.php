@@ -67,7 +67,7 @@ return array(
             'DB_USER'=>'root',
             'DB_PWD'=>'root',
             'DB_PORT'=>'3306',
-            'url'=> "http://10.0.0.168:2680/gm_command_cl.clkj",
+            'url'=> "http://10.0.0.168:1680/pay_callback_lj.clkj",
             ),
 
         '测试106.15.198.179'=>array(
@@ -77,7 +77,7 @@ return array(
             'DB_USER'=>'DingRuo321Fish',
             'DB_PWD'=>'!@#dmq1987.',
             'DB_PORT'=>'3306',
-            'url'=> "http://106.15.198.179:2680/gm_command_cl.clkj",
+            'url'=> "http://106.15.198.179:1680/pay_callback_lj.clkj",
             ),
         '正式139.196.96.86'=>array(
             'DB_TYPE'=>'mysql',
@@ -86,7 +86,7 @@ return array(
             'DB_USER'=>'dumingqing',
             'DB_PWD'=>'!@#dmq1987',
             'DB_PORT'=>'3306',
-            'url'=> "http://139.196.96.86:2680/gm_command_cl.clkj",
+            'url'=> "http://139.196.96.86:1680/pay_callback_lj.clkj",
             ),
     )
 );

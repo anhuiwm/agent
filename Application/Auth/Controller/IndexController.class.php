@@ -21,6 +21,37 @@ class IndexController extends Controller {
     	header("Content-Type:text/html; charset=utf-8");
       $this->site_info=M('site')->find();
     }
+        /**
+* 发起一个post请求到指定接口
+* @param string $api 请求的接口
+* @param array $params post参数
+* @param int $timeout 超时时间
+* @return string 请求结果
+*/
+public function postRequest($api, array $params = array(), $timeout = 30 ) {
+
+          foreach($params as $key => $value)
+          {
+              file_put_contents('wmsmslog.txt', "send:".$key."=".$value.PHP_EOL, FILE_APPEND);
+          }
+	$ch = curl_init();
+	// 以返回的形式接收信息
+	curl_setopt( $ch, CURLOPT_URL, $api );
+	// 设置为POST方式
+	curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
+	curl_setopt( $ch, CURLOPT_POST, 1 );
+	// 不验证https证书
+	curl_setopt( $ch, CURLOPT_POSTFIELDS, http_build_query( $params ) );
+	curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0 );
+	curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0 );
+	curl_setopt( $ch, CURLOPT_TIMEOUT, $timeout );
+	// 发送数据
+	curl_setopt( $ch, CURLOPT_HTTPHEADER, array( 'Content-Type: application/x-www-form-urlencoded;charset=UTF-8', 'Accept: application/json', ) );
+	// 不要忘记释放资源
+	$response = curl_exec( $ch );
+	curl_close( $ch );
+    return $response;
+}
 
     public function index()
     {
@@ -113,6 +144,7 @@ class IndexController extends Controller {
          $password=I('post.password');
          $confirm_password = I('post.confirm_password');
          $agree=I('post.agree');
+         $code = I('post.auth_code');
          if (!isset($password) ){
            alert('密码为空！');
            goback();
@@ -122,7 +154,7 @@ class IndexController extends Controller {
            alert('密码不一致！');
            goback();
          }
-         
+
          if (!isset($username) ){
            alert('手机号为空！');
            goback();
@@ -132,41 +164,84 @@ class IndexController extends Controller {
            alert('请先同意用户协议！');
            goback();
          }
- 
+
          $umap['username']=$username;
          $exist_user=M('user')->where($umap)->find();
          if ($exist_user) {
            alert('手机账户已注册！');
            goback();
          }
-
-        $otdata=array();
-        $otdata['password']=md5($password);
-        $otdata['username']=$username;
-        $otdata['is_super']=0;
-        $otdata['is_active']=0;
-        $otdata['auth_group']=11;
-        $otdata['orderid']=0;
-        $otdata['status']= 1;//待审核
-        $otdata['name']= I('post.name');
-        $otdata['apply_remark'] = I('post.remark');
-        $otdata['add_time'] = date("Y-m-d H:i:s");
-       if( $id = $userData->add($otdata)){
-           $this->redirect('Auth/Index/login','',3, '亲，申请成功,请您等待客服联系!');
+         $mobile = $username;
+        if(!$this->checksms($mobile,$code))
+        {
+          alert('验证码错误,请重新输入！');
+           goback();
         }
         else{
-           alert('系统错误,请联系管理员！');
-           goback();
+            $otdata=array();
+            $otdata['password']=md5($password);
+            $otdata['username']=$username;
+            $otdata['is_super']=0;
+            $otdata['is_active']=0;
+            $otdata['auth_group']=11;
+            $otdata['orderid']=0;
+            $otdata['status']= 1;//待审核
+            $otdata['name']= I('post.name');
+            $otdata['apply_remark'] = I('post.remark');
+            $otdata['add_time'] = date("Y-m-d H:i:s");
+           if( $id = $userData->add($otdata)){
+               $this->redirect('Auth/Index/login','',3, '亲，申请成功,请您等待客服联系!');
+            }
+            else{
+               alert('系统错误,请联系管理员！');
+               goback();
+            }
         }
     }
 
-    public function sendsms(){
+    public function checksms($mobile,$code){
+        //$mobile=I('post.mobile');
+        //file_put_contents('wmsmslog.txt', "mobile:".$mobile.PHP_EOL, FILE_APPEND);
+        $params = array(
+        'appkey'=>'1b21fe6f50a42',
+        'zone' => '86',
+        'phone' => "{$mobile}",
+         'code' => "{$code}"
+        );
 
-         $mobile=I('post.mobile');
-         file_put_contents('wmsmslog.txt', "mobile:".$mobile.PHP_EOL, FILE_APPEND);
-         $res =array();
-         $res["err"] = 0;
-         $res["msg"] = "暂时忽略验证码";//"请求发送成功";
-         echo json_encode($res);
+	   $api="https://webapi.sms.mob.com/sms/checkcode";
+       $res = $this->postRequest($api, $params );
+	   //var_dump($res);
+	   $res_arr = json_decode($res,true);
+	   //var_dump($res_arr);
+	   if($res_arr['status']=='200')
+	   {
+		   return true;
+	   }
+	   else
+	   {
+		   return false;
+	   }
+    }
+    public function sendsms(){
+        $mobile=I('post.mobile');
+        //file_put_contents('wmsmslog.txt', "mobile:".$mobile.PHP_EOL, FILE_APPEND);
+        $params = array(
+        'appkey'=>'1b21fe6f50a42',
+        'zone' => '86',
+        'phone' => "{$mobile}",
+        );
+
+        $api="https://webapi.sms.mob.com/sms/sendmsg";
+        $res = $this->postRequest($api, $params );
+
+         file_put_contents('wmsmslog.txt', $mobile.":send:".$res.PHP_EOL, FILE_APPEND);
+         // foreach($res as $key => $value)
+         // {
+         //     file_put_contents('wmsmslog.txt', ":".$key."=".$value.PHP_EOL, FILE_APPEND);
+         // }
+        //$res='{"status":200}';
+        //$res='{"status":471,"error":"Request ip is error."}';
+       echo ($res);
     }
 }

@@ -448,6 +448,9 @@ class CommandController extends AgentController {
         if(IS_POST){
             if($auth_group==11){
               $username =  $_SESSION['user']['username'];
+              dump($_SESSION['user']['username']);
+              dump($_SESSION['user']['username']);
+              dump($_SESSION['user']['username']);
             }else{
               $username = $_POST["username"];
             }
@@ -814,11 +817,41 @@ a.GameTime,a.TitleID,a.OnlineSec,a.GoldBulletNum,a.NobilityPoint,a.AddupCheckNum
          }
 
          $arr_db_url = get_db_config_url();
-         $data['type']=self::$GT_Agent_Charge;
-         $data['id']=$gameuserid;
-         $data['num']=$shopid;
-         $data['content'] =  $_SESSION['user']['username'];
-         $data['target'] =  "agent".$_SESSION['user']['username'].date("Y-m-d-H:i:s");
+         //$data['type']=self::$GT_Agent_Charge;
+         //$data['id']=$gameuserid;
+         //$data['num']=$shopid;
+         //$data['content'] =  $_SESSION['user']['username'];
+         //$data['target'] =  "agent".$_SESSION['user']['username'].date("Y-m-d-H:i:s");
+         //$data['target'] = base64_encode(pack("LL",20308,11));
+
+            $app  = "321by" ;
+            $cbi  = base64_encode(pack("LL",20308,11));//$value_array['passback_params'];
+            $ct	  = "ct"  ;
+            $fee  = $value_array['total_amount'];
+            $pt	  = "pt"  ;
+            $sdk  = "alibaba" ;
+            $ssid = $value_array['trade_no'];//阿里支付订单号
+            $st	  = "st"  ;
+            $tcd  = $value_array['out_trade_no'];//商户系统内部订单号
+            $uid  = $value_array['buyer_id'];//用户标识
+            $ver  = "ver" ;
+                    $CheckStr = "app=".$app."&cbi=".$cbi."&ct=".$ct."&fee=".$fee."&pt=".$pt."&sdk=".$sdk."&ssid=".$ssid."&st=".$st."&tcd=".$tcd."&uid=".$uid."&ver=".$ver;
+    	            $Key = "1LB8K19BXX2XCWXYXSX1X4XD5REHEF9Q";
+    	            $CheckStr = $CheckStr.$Key;
+    	            $sign = md5($CheckStr);
+
+                    $data["app" ]=$app ;
+                    $data["cbi" ]=$cbi ;
+                    $data["ct"  ]=$ct  ;
+                    $data["fee" ]=$fee ;
+                    $data["pt"  ]=$pt  ;
+                    $data["sdk" ]=$sdk ;
+                    $data["ssid"]=$ssid;
+                    $data["st"  ]=$st  ;
+                    $data["tcd" ]=$tcd ;
+                    $data["uid" ]=$uid ;
+                    $data["ver" ]=$ver ;
+                    $data["sign"]=$sign;
          $count = 1;//I('post.count');
          for($i = 0; $i < $count;$i++){
              $httpstr = $this->http($arr_db_url, $data, 'GET', array("Content-type: text/html; charset=utf-8"));

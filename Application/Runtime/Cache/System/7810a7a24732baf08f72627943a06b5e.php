@@ -34,78 +34,7 @@
         $.datetimepicker.setLocale('zh');
     </script>
 
-    <script type="text/javascript">
-        //时间选择
-        function selecttime(flag) {
-            if (flag == 1) {
-                var endTime = $("#countTimeend").val();
-                if (endTime != "") {
-                    WdatePicker({
-                        dateFmt: 'yyyy-MM-dd HH:mm',
-                        maxDate: endTime
-                    });
-                } else {
-                    WdatePicker({
-                        dateFmt: 'yyyy-MM-dd HH:mm'
-                    });
-                }
-            } else {
-                var startTime = $("#countTimestart").val();
-                if (startTime != "") {
-                    WdatePicker({
-                        dateFmt: 'yyyy-MM-dd HH:mm',
-                        minDate: startTime
-                    });
-                } else {
-                    WdatePicker({
-                        dateFmt: 'yyyy-MM-dd HH:mm'
-                    });
-                }
-            }
-        }
-
-
-        //时间选择
-        function selectdate(flag) {
-            if (flag == 1) {
-                var endTime = $("#enddate").val();
-                if (endTime != "") {
-                    WdatePicker({
-                        dateFmt: 'yyyy-M-d',
-                        maxDate: endTime
-                    });
-                } else {
-                    WdatePicker({
-                        dateFmt: 'yyyy-M-d'
-                    });
-                }
-            } else {
-                var startTime = $("#startdate").val();
-                if (startTime != "") {
-                    WdatePicker({
-                        dateFmt: 'yyyy-M-d',
-                        minDate: startTime
-                    });
-                } else {
-                    WdatePicker({
-                        dateFmt: 'yyyy-M-d '
-                    });
-                }
-            }
-        }
-
-        function selectonetime(flag) {
-            WdatePicker({
-                dateFmt: 'yyyy-MM-dd HH:mm'
-            });
-        }
-
-        function selectdaytime(flag) {
-            WdatePicker({
-                dateFmt: 'HH:mm:ss'
-            });
-        }
-    </script>
+    <script src="/Public/boot/js/wm.js"></script>
 
     <?php
  if(strpos($HTTP_SERVER_VARS[HTTP_USER_AGENT], "MSIE 8.0")) { echo ' <link href="/Public/<?php echo C(DEFAULT_THEME);?>/Static/css/ie.css" rel="stylesheet" type="text/css" media="screen">'; } ?>
@@ -265,91 +194,45 @@
     <link href="/Public/default/Static/css/mindex.css" rel="stylesheet">
     <div class="row index_main">
         <div class="col-md-8">
-            <div class="logs_main">
-                <div class="logs_tt">
-                    <h4>欢迎您，<?php echo ($_SESSION['user']['username']); ?></h4>
-                </div>
-
-                <!-- <div class="logs_total">
-                    <div class="inrow">
-                        <?php if(is_array($shortcut)): foreach($shortcut as $key=>$row): ?><div class="initem">
-                                <div class="inbtn"><a class="btn btn-default" href="<?php echo ($row['urls']); ?>"><i class="iconfont"></i> <?php echo ($row['title']); ?></a></div>
-                            </div><?php endforeach; endif; ?>
-
-                    </div>
-                </div> -->
-
-
-                <!--MOB SHARE BEGIN-->
-                <div class="-mob-share-ui-button -mob-share-open">发送给好友</div>
-                <div class="-mob-share-ui" style="display: none">
-                    <ul class="-mob-share-list">
-                        <!-- <li class="-mob-share-weibo">
-                            <p>新浪微博</p>
-                        </li>
-                        <li class="-mob-share-qzone">
-                            <p>QQ空间</p>
-                        </li> -->
-                        <li class="-mob-share-qq">
-                            <p>QQ好友</p>
-                        </li>
-
-                        <li class="-mob-share-weixin">
-                            <p>微信好友</p>
-                        </li>
-                        <!-- <li class="-mob-share-douban">
-                            <p>豆瓣</p>
-                        </li>
-                        <li class="-mob-share-facebook">
-                            <p>Facebook</p>
-                        </li>
-                        <li class="-mob-share-twitter">
-                            <p>Twitter</p>
-                        </li> -->
-                    </ul>
-                    <div class="-mob-share-close">取消</div>
-                </div>
-                <div class="-mob-share-ui-bg"></div>
-                <script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=1ff5a83910f56"></script>
-                <!--MOB SHARE END-->
-
-
-                <div class="logs_tt top30">
-                    <h4>范围分布</h4>
-                </div>
-                <div class="logs_total">
-                    <img src="/Public/default/Static/images/ditu.png" width="100%">
-                </div>
-
-
-
-
-                <div class="logs_tt top30">
-                    <h4>系统通知</h4>
-                </div>
-                <div class="logs_total">
-                    <p>今日访问量：1.0</p>
-                </div>
-
-                <div class="logs_tt top30">
-                    <h4>开发团队</h4>
-                </div>
-                <div class="logs_total">
-                    <p>团队开发：321捕鱼工作室</p>
-                </div>
-
-
-
-            </div>
-            <!-- end logs_main -->
+            欢迎您，<?php echo ($_SESSION['user']['username']); ?>
         </div>
 
-        <div class="col-md-4">
+        <!--MOB SHARE BEGIN-->
+        <div class="-mob-share-ui-button -mob-share-open col-md-8">发送给好友</div>
+        <div class="-mob-share-ui col-md-8" style="display: none">
+            <ul class="-mob-share-list">
+                <!-- <li class="-mob-share-weibo">
+                    <p>新浪微博</p>
+                </li>
+                <li class="-mob-share-qzone">
+                    <p>QQ空间</p>
+                </li> -->
+                <li class="-mob-share-qq">
+                    <p>QQ好友</p>
+                </li>
+                <li class="-mob-share-weixin">
+                    <p>微信好友</p>
+                </li>
+                <!-- <li class="-mob-share-douban">
+                    <p>豆瓣</p>
+                </li>
+                <li class="-mob-share-facebook">
+                    <p>Facebook</p>
+                </li>
+                <li class="-mob-share-twitter">
+                    <p>Twitter</p>
+                </li> -->
+            </ul>
+            <div class="-mob-share-close">取消</div>
+        </div>
+        <div class="-mob-share-ui-bg"></div>
+        <script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=1ff5a83910f56"></script>
+        <!--MOB SHARE END-->
+        <div class="col-md-8">
             <div class="logs_lists">
                 <div class="logs_item">
                     <h4>最近操作</h4>
                 </div>
-
                 <?php if(is_array($log_lists)): foreach($log_lists as $key=>$row): ?><div class="logs_item">
                         <div class="logs_action">
                             对【<?php echo (get_model_name($row['model_name'])); ?>】进行了【<?php echo ($row['action']); ?>】操作
@@ -359,12 +242,9 @@
                         </div>
                     </div><?php endforeach; endif; ?>
 
-
-
             </div>
         </div>
     </div>
-
 
                 </div>
                 <!-- main_body -->

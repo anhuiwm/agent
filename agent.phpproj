@@ -808,6 +808,7 @@
     <Content Include="Public\default\Static\js\jquery.sparkline.js" />
     <Content Include="Public\default\Static\js\my.js" />
     <Content Include="Public\default\Static\js\sparkline-chart.js" />
+    <Content Include="Public\boot\js\wm.js" />
     <Content Include="Public\default\System\index.html" />
     <Content Include="Public\default\System\lists.html" />
     <Content Include="Public\default\System\lists_field_group.html" />

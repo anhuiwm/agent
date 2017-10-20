@@ -813,48 +813,39 @@ a.GameTime,a.TitleID,a.OnlineSec,a.GoldBulletNum,a.NobilityPoint,a.AddupCheckNum
          $hold_share = $_SESSION['user']['hold_share'];//I('post.hold');
          $charge_share = get_charge_range_money($shopid);
          if( $charge_share > $hold_share){
-             $this->redirect('GmTool:player_charge','',3, '亲，额度不足，请先充值!!!');
+             $this->redirect('GmTool:player_charge','',5, '亲，额度不足，请先充值!!!');
          }
 
          $arr_db_url = get_db_config_url();
-         //$data['type']=self::$GT_Agent_Charge;
-         //$data['id']=$gameuserid;
-         //$data['num']=$shopid;
-         //$data['content'] =  $_SESSION['user']['username'];
-         //$data['target'] =  "agent".$_SESSION['user']['username'].date("Y-m-d-H:i:s");
-         //$data['target'] = base64_encode(pack("LL",20308,11));
-
             $app  = "321by" ;
-            $cbi  = base64_encode(pack("LL",20308,11));//$value_array['passback_params'];
+            $cbi  = base64_encode($shopid); //base64_encode(pack("LL",20308,11));
             $ct	  = "ct"  ;
-            $fee  = $value_array['total_amount'];
+            $fee  = $gameuserid;
             $pt	  = "pt"  ;
-            $sdk  = "alibaba" ;
-            $ssid = $value_array['trade_no'];//阿里支付订单号
+            $sdk  = "agent" ;
+            $ssid = "agent".$_SESSION['user']['username'].date("YmdHis");
             $st	  = "st"  ;
-            $tcd  = $value_array['out_trade_no'];//商户系统内部订单号
-            $uid  = $value_array['buyer_id'];//用户标识
+            $tcd  =  $ssid;
+            $uid  = $_SESSION['user']['username'];
             $ver  = "ver" ;
-                    $CheckStr = "app=".$app."&cbi=".$cbi."&ct=".$ct."&fee=".$fee."&pt=".$pt."&sdk=".$sdk."&ssid=".$ssid."&st=".$st."&tcd=".$tcd."&uid=".$uid."&ver=".$ver;
-    	            $Key = "1LB8K19BXX2XCWXYXSX1X4XD5REHEF9Q";
-    	            $CheckStr = $CheckStr.$Key;
-    	            $sign = md5($CheckStr);
-
-                    $data["app" ]=$app ;
-                    $data["cbi" ]=$cbi ;
-                    $data["ct"  ]=$ct  ;
-                    $data["fee" ]=$fee ;
-                    $data["pt"  ]=$pt  ;
-                    $data["sdk" ]=$sdk ;
-                    $data["ssid"]=$ssid;
-                    $data["st"  ]=$st  ;
-                    $data["tcd" ]=$tcd ;
-                    $data["uid" ]=$uid ;
-                    $data["ver" ]=$ver ;
-                    $data["sign"]=$sign;
-         $count = 1;//I('post.count');
-         for($i = 0; $i < $count;$i++){
+            $CheckStr = "app=".$app."&cbi=".$cbi."&ct=".$ct."&fee=".$fee."&pt=".$pt."&sdk=".$sdk."&ssid=".$ssid."&st=".$st."&tcd=".$tcd."&uid=".$uid."&ver=".$ver;
+            $Key = "1LB8K19BXX2XCWXYXSX1X4XD5REHEF9Q";
+            $CheckStr = $CheckStr.$Key;
+            $sign = md5($CheckStr);
+            $data["app" ]=$app ;
+            $data["cbi" ]=$cbi ;
+            $data["ct"  ]=$ct  ;
+            $data["fee" ]=$fee ;
+            $data["pt"  ]=$pt  ;
+            $data["sdk" ]=$sdk ;
+            $data["ssid"]=$ssid;
+            $data["st"  ]=$st  ;
+            $data["tcd" ]=$tcd ;
+            $data["uid" ]=$uid ;
+            $data["ver" ]=$ver ;
+            $data["sign"]=$sign;
              $httpstr = $this->http($arr_db_url, $data, 'GET', array("Content-type: text/html; charset=utf-8"));
+
              if($httpstr == "SUCCESS")
              {
                 $id =  $_SESSION['user']['user_id'];
@@ -863,21 +854,21 @@ a.GameTime,a.TitleID,a.OnlineSec,a.GoldBulletNum,a.NobilityPoint,a.AddupCheckNum
                 $gameid=I('post.gameid');
                 $nick=I('post.nickname');
                 if ($result) {
-                    charge_share_log($id, $hold_share,$charge_share*-1,0,0,$gameid,$nick,"success", $data['target']);
+                    charge_share_log($id, $hold_share,$charge_share*-1,0,0,$gameid,$nick,"success", $ssid);
                 }
                 else{
-                    charge_share_log($id, $hold_share,$charge_share*-1,0,0,$gameid,$nick,"false", $data['target']);
+                    charge_share_log($id, $hold_share,$charge_share*-1,0,0,$gameid,$nick,"false", $ssid);
                 }
              }
              else
              {
                //$this->redirect('GmTool:player_charge','',5, '<div align="center"> 亲，游戏服务器错误，请联系管理员!!! </div>');
-               $this->redirect('GmTool:player_charge','',5, '亲，游戏服务器错误，请联系管理员!!! </div>');
+               $this->redirect('GmTool:player_charge','',5, '亲，游戏服务器错误，请联系管理员!!!');
              }
-         }
+        // }
          //$this->redirect('GmTool:add_cashpoint','',3, '亲，发送命令成功!稍后请查询!!');
          $_SESSION['act_info']='操作成功！请查询玩家充值记录！';
-         //sleep(1);
+         sleep(1);
          $this->player_charge();
        }
     }

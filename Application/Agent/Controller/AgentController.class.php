@@ -133,11 +133,8 @@ class AgentController extends Controller {
                 CURLOPT_SSL_VERIFYHOST => false,
                 CURLOPT_HTTPHEADER     => $header
         );
-        $params["sign"] = md5($params["type"]."DMQby321MiniCMS");
+        //$params["sign"] = md5($params["type"]."DMQby321MiniCMS");
        // dump($params["type"]."DMQby321MiniCMS");
-
-        //dump($params);
-        //dump($params);
         /* 根据请求类型设置特定参数 */
         switch(strtoupper($method)){
             case 'GET':

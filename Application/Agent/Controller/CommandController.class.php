@@ -323,8 +323,8 @@ class CommandController extends AgentController {
            else if(empty($real_charge)){
              $_SESSION['act_info']='实收为空！';
            }
-           else if($hold_share!=$should_charge){
-             $_SESSION['act_info']='应收与额度不一致！';
+           else if($charge_share!=$should_charge){
+             $_SESSION['act_info']='应收与充值额度不一致！';
            }
            //else if($real_charge!=$should_charge*0.8){
            //  $_SESSION['act_info']='应收与额度不一致！';
@@ -352,7 +352,13 @@ class CommandController extends AgentController {
                     //return false;
                 }
             }
-
+            $sql = "select hold_share from xq_user where id = {$id}"; 
+            $res = M("user")->query($sql);
+            dump($res);
+            dump($res);
+            dump($res);
+            dump($res);
+            $_SESSION['user']['hold_share'] = $res[0]["hold_share"];
            $this->charge();
        }
     }
@@ -448,9 +454,9 @@ class CommandController extends AgentController {
         if(IS_POST){
             if($auth_group==11){
               $username =  $_SESSION['user']['username'];
-              dump($_SESSION['user']['username']);
-              dump($_SESSION['user']['username']);
-              dump($_SESSION['user']['username']);
+              //dump($_SESSION['user']['username']);
+              //dump($_SESSION['user']['username']);
+              //dump($_SESSION['user']['username']);
             }else{
               $username = $_POST["username"];
             }
@@ -543,9 +549,10 @@ public function return_info(){
         $auth_group =  $_SESSION['user']['auth_group'];
         if(IS_POST){
             $sql = "select username from xq_user ";
+            
             if($auth_group==11){
               $username =  $_SESSION['user']['username'];
-              if(!empty($username)){
+              if(empty($username)){
                 $this->redirect('Agent:agent_info','',3, '请输入代理账户!!!');
                 }
             }else{
@@ -680,10 +687,10 @@ public function player_charge(){
                 );
 
        if(IS_POST){
-             $gameid = $_POST["gameid"];
-       $userid = $_POST["userid"];
-       $account = $_POST["accountname"];
-              $nick = $_POST["nickname"];
+           $gameid = $_POST["gameid"];
+           $userid = $_POST["userid"];
+           $account = $_POST["accountname"];
+           $nick = $_POST["nickname"];
            $db_config = get_db_config();
            $res = null;
            if(!empty($gameid)){
@@ -728,7 +735,7 @@ a.GameTime,a.TitleID,a.OnlineSec,a.GoldBulletNum,a.NobilityPoint,a.AddupCheckNum
 	                where a.AccountName= '{$account}';
                 ";
                $res =  M("accountinfo",null,$db_config)->query($sql);
-           }else  if(!empty($account)){
+           }else  if(!empty($nick)){
                $sql = "select	a.AccountName,a.FishExp,a.LastLogonTime,a.Production, a.IsRobot,a.FreezeEndTime,a.RsgIP, a.UserID,a.NickName,a.FishLevel,a.FaceID,a.Gender,a.IsOnline,a.AchievementPoint,a.TitleID,
 					a.CharmArray ,a.LastLogonIp,a.IsShowIpAddress, a.VipLevel,a.TotalRechargeSum,a.MonthCardID,a.MonthCardEndTime,
 					b.GameID as 'GameID', a.CashPointNum, a.UsingLauncher,a.MaxRateValue,a.CurrencyNum,a.GlobalNum,a.MedalNum,
@@ -849,16 +856,21 @@ a.GameTime,a.TitleID,a.OnlineSec,a.GoldBulletNum,a.NobilityPoint,a.AddupCheckNum
              if($httpstr == "SUCCESS")
              {
                 $id =  $_SESSION['user']['user_id'];
-                $sql = "update xq_user set hold_share=hold_share-{$charge_share},charge_player_sum=charge_player_sum+{$charge_share} where id = {$id} ";
+                $sql = "update xq_user set hold_share=hold_share-{$charge_share},charge_player_sum=charge_player_sum+{$charge_share} where id = {$id};";
                 $result = M("user")->execute($sql);
                 $gameid=I('post.gameid');
                 $nick=I('post.nickname');
+
                 if ($result) {
                     charge_share_log($id, $hold_share,$charge_share*-1,0,0,$gameid,$nick,"success", $ssid);
                 }
                 else{
                     charge_share_log($id, $hold_share,$charge_share*-1,0,0,$gameid,$nick,"false", $ssid);
                 }
+
+                $sql = "select hold_share from xq_user where id = {$id}"; 
+                $res = M("user")->query($sql);
+                $_SESSION['user']['hold_share'] = $res[0]["hold_share"];
              }
              else
              {

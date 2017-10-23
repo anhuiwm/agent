@@ -1,117 +1,119 @@
 <?php if (!defined('THINK_PATH')) exit();?>﻿<html>
+
 <head>
-<script src="/Public/boot/js/jquery.js"></script>
-<script src="/Public/boot/js/bootstrap.min.js"></script>
-<!--<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>-->
-<!--<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
-<script type="text/javascript">
-    var InterValObj; //timer变量，控制时间
-    var count = 5; //间隔函数，1秒执行
-    var curCount;//当前剩余秒数
+    <script src="/Public/boot/js/jquery.js"></script>
+    <script src="/Public/boot/js/bootstrap.min.js"></script>
+    <!--<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>-->
+    <!--<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+    <script type="text/javascript">
+        var InterValObj; //timer变量，控制时间
+        var count = 10; //间隔函数，1秒执行
+        var curCount; //当前剩余秒数
 
-    function validatemobile(mobile)
-    {
-        if(mobile.length==0)
-        {
-           alert('请输入手机号码！');
-           document.form1.mobile.focus();
-           return false;
-        }
-        if(mobile.length!=11)
-        {
-            alert('请输入有效的手机号码！');
-            document.form1.mobile.focus();
-            return false;
-        }
-
-        var myreg = /^1[3|4|5|8][0-9]\d{4,8}$/;
-        if(!myreg.test(mobile))
-        {
-            alert('请输入有效的手机号码！');
-            document.form1.mobile.focus();
-            return false;
-        }
-    }
-
-    function sendMessage() {
-        curCount = count;
-　　    //设置button效果，开始计时
-         $("#btnSendCode").attr("disabled", "true");
-         $("#btnSendCode").val("请在" + curCount + "秒内输入验证码");
-         InterValObj = window.setInterval(SetRemainTime, 1000); //启动计时器，1秒执行一次
-　　      //向后台发送处理数据
-         var mobile = document.getElementById("mobile").value;
-         validatemobile(mobile);//调用上边的方法验证手机号码的正确性
-         alert(mobile);
-           $.ajax({
-     　　    type: "POST", //用POST方式传输
-             url: "<?php echo U('Auth/Index/sendsms');?>", //目标地址.
-             dataType: "json", //数据格式:JSON
-    　　     //data: "dealType=" + dealType +"&uid=" + uid + "&code=" + code,
-             data: "mobile="+mobile,
-             success: function (json) {
-                // alert(json);
-                // alert(json.status);
-                 if(json.status=="200")
-                 {
-                     alert("发送成功!");
-                     //alert(json.status);
-                 }
-                //else if(json.msgid==2)
-                 else {
-                     //alert(json.error);
-                     alert("发送失败!");
-                }
-             }
-         });
-    }
-
-    //timer处理函数
-    function SetRemainTime() {
-                if (curCount == 0) {
-                    window.clearInterval(InterValObj);//停止计时器
-                    $("#btnSendCode").removeAttr("disabled");//启用按钮
-                    $("#btnSendCode").val("重新发送验证码");
-                }
-                else {
-                    curCount--;
-                    $("#btnSendCode").val("请在" + curCount + "秒内输入验证码");
-                }
+        function validatemobile(mobile) {
+            if (mobile.length == 0) {
+                alert('请输入手机号码！');
+                document.form1.mobile.focus();
+                return false;
             }
-</script>
+            if (mobile.length != 11) {
+                alert('请输入有效的手机号码！');
+                document.form1.mobile.focus();
+                return false;
+            }
+
+            var myreg = /^1[3|4|5|8][0-9]\d{4,8}$/;
+            if (!myreg.test(mobile)) {
+                alert('请输入有效的手机号码！');
+                document.form1.mobile.focus();
+                return false;
+            }
+        }
+
+        function sendMessage() {
+            curCount = count;　　 //设置button效果，开始计时
+            $("#btnSendCode").attr("disabled", "true");
+            $("#btnSendCode").val("请在" + curCount + "秒内输入验证码");
+            InterValObj = window.setInterval(SetRemainTime, 1000); //启动计时器，1秒执行一次
+            　　 //向后台发送处理数据
+            var mobile = document.getElementById("mobile").value;
+            validatemobile(mobile); //调用上边的方法验证手机号码的正确性
+            alert(mobile);
+            $.ajax({　　
+                type: "POST", //用POST方式传输
+                url: "{:U('Auth/Index/sendsms')}", //目标地址.
+                dataType: "json", //数据格式:JSON
+                　　 //data: "dealType=" + dealType +"&uid=" + uid + "&code=" + code,
+                data: "mobile=" + mobile,
+                success: function(json) {
+                    // alert(json);
+                    // alert(json.status);
+                    if (json.status == "200") {
+                        alert("发送成功!");
+                        //alert(json.status);
+                    }
+                    //else if(json.msgid==2)
+                    else {
+                        //alert(json.error);
+                        alert("发送失败!");
+                    }
+                }
+            });
+        }
+
+        //timer处理函数
+        function SetRemainTime() {
+            if (curCount == 0) {
+                window.clearInterval(InterValObj); //停止计时器
+                $("#btnSendCode").removeAttr("disabled"); //启用按钮
+                $("#btnSendCode").val("重新发送验证码");
+            } else {
+                curCount--;
+                $("#btnSendCode").val("请在" + curCount + "秒内输入验证码");
+            }
+        }
+    </script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
 
-    <title><?php echo ($site_info['site_title']); ?> </title>
+    <title><?php echo ($site_info['site_title']); ?>
+        
+    </title>
     <link href="/Public/boot/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/<?php echo C(DEFAULT_THEME);?>/Static/css/base.css" rel="stylesheet" type="text/css" media="screen">
 </head>
+
 <body>
     <div class="lgbg">
         <div class="login">
             <form method="post" action="<?php echo U('Auth/Index/register_auth');?>">
-                <h4 class="nomargin">申请</h4>
+                <!-- <h4 class="nomargin">申请</h4> -->
                 <p class="mt5 mb20"><em>欢迎您使用321捕鱼代理系统</em></p>
                 <input type="text" class="form-control" placeholder="姓名" name="name">
-                <br />
+                <!-- <br /> -->
                 <!--<input type="text" class="form-control" placeholder="手机号码" name="username">
                 <br />-->
-                <input id="mobile" class="form-control" type="text" name="username" placeholder="手机号码">
-                <input id="btnSendCode" class="btn btn-success btn-block" type="button" value="免费发送验证码" onclick="sendMessage()">
-                <input type="text" class="form-control" placeholder="验证码(暂时忽略)" name="auth_code">
-                <br />
+
+                <!-- <br /> -->
                 <input type="password" class="form-control" placeholder="密码" name="password">
-                <br />
+                <!-- <br /> -->
                 <input type="password" class="form-control" placeholder="确认密码" name="confirm_password">
-                <br />
+                <!-- <br /> -->
                 <input type="text" class="form-control" placeholder="备注" name="remark">
+
+                <!-- <br /><br /> -->
+                <br />
+                <input id="mobile" class="form-control" type="text" name="username" placeholder="手机号码">
+
+                <input type="text" class="form-control" placeholder="验证码" name="auth_code">
+                <input id="btnSendCode" class="btn btn-success btn-block" type="button" value="免费发送验证码" onclick="sendMessage()">
                 <label>
                     <input type="checkbox" name="agree" value="1"> 我已阅读并同意 <a href="xieyi.html">用户协议</a>
                 </label>
-                <br /><br />
+                <br />
                 <button class="btn btn-success btn-block">申请</button>
             </form>
             <a href="login.html" class="text-center">我已经注册了账户</a>
@@ -121,4 +123,5 @@
     <div class="cropy">版权归321捕鱼开发团队所有</div>
 
 </body>
+
 </html>

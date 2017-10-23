@@ -135,9 +135,9 @@ class SystemController extends Controller {
             $map=array();
         }
 
-        if($this->THIS_MODEL['table_name'] == "auth_group"){
-           $map["id"]=array('neq','11');;
-        }
+        //wm  if($this->THIS_MODEL['table_name'] == "auth_group"){
+        //    $map["id"]=array('neq','11');;
+        // }
 
         if (IS_POST) {
 

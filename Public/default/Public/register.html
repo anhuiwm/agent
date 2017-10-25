@@ -98,22 +98,23 @@
                 <h4 class="nomargin">申请</h4>
                 <p class="mt5 mb20"><em>欢迎您使用321捕鱼代理系统</em></p>
                 <input type="text" class="form-control" placeholder="姓名" name="name">
-                <br />
-                <!--<input type="text" class="form-control" placeholder="手机号码" name="username">
-                <br />-->
-                <input id="mobile" class="form-control" type="text" name="username" placeholder="手机号码">
-                <input id="btnSendCode" class="btn btn-success btn-block" type="button" value="免费发送验证码" onclick="sendMessage()">
-                <input type="text" class="form-control" placeholder="验证码(暂时忽略)" name="auth_code">
-                <br />
+
                 <input type="password" class="form-control" placeholder="密码" name="password">
-                <br />
+
                 <input type="password" class="form-control" placeholder="确认密码" name="confirm_password">
-                <br />
+
                 <input type="text" class="form-control" placeholder="备注" name="remark">
-                <label>
+				
+				<input id="mobile" class="form-control" type="text" name="username" placeholder="手机号码">
+				
+                <input id="btnSendCode" class="btn btn-success btn-block" type="button" value="免费发送验证码" onclick="sendMessage()">
+                
+				<input type="text" class="form-control" placeholder="验证码(暂时忽略)" name="auth_code">
+                
+				<label>
                     <input type="checkbox" name="agree" value="1"> 我已阅读并同意 <a href="xieyi.html">用户协议</a>
                 </label>
-                <br /><br />
+                <br />
                 <button class="btn btn-success btn-block">申请</button>
             </form>
             <a href="login.html" class="text-center">我已经注册了账户</a>

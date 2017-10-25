@@ -23,63 +23,63 @@
     <if condition="isset($title_user_lists)">
         当前信息:
     </if>
-       
-    <table class="table  datalist  table-hover">
-        <thead>
-            <tr>
-                <foreach name="title_user_lists" item="row">
-                    <th>
-                        {$row}
-                    </th>
-                </foreach>
-            </tr>
-        </thead>
-        <tbody>
-            <foreach name="list_user_data" item="row" key='key'>
+    <div style="overflow:scroll;">
+        <table class="table  datalist  table-hover">
+            <thead>
                 <tr>
-                    <foreach name="title_user_lists" item="row1" key='key1'>
-                        <td>
-                            <if condition="isset($row[$key1])">{$row[$key1]}
-                                <else/>未定
-                            </if>
-                        </td>
+                    <foreach name="title_user_lists" item="row">
+                        <th>
+                            {$row}
+                        </th>
                     </foreach>
                 </tr>
-            </foreach>
-        </tbody>
-    </table>
-
-    </br>
-    </br>
-    </br>
-
-    <if condition="isset($title_user_lists)">
-        充值记录:
-    </if>
-    <table class="table  datalist  table-hover">
-        <thead>
-            <tr>
-                <foreach name="title_lists" item="row">
-                    <th>
-                        {$row}
-                    </th>
+            </thead>
+            <tbody>
+                <foreach name="list_user_data" item="row" key='key'>
+                    <tr>
+                        <foreach name="title_user_lists" item="row1" key='key1'>
+                            <td>
+                                <if condition="isset($row[$key1])">{$row[$key1]}
+                                    <else/>未定
+                                </if>
+                            </td>
+                        </foreach>
+                    </tr>
                 </foreach>
-            </tr>
-        </thead>
-        <tbody>
-            <foreach name="list_data" item="row" key='key'>
+            </tbody>
+        </table>
+
+        </br>
+        </br>
+        </br>
+
+        <if condition="isset($title_user_lists)">
+            充值记录:
+        </if>
+        <table class="table  datalist  table-hover">
+            <thead>
                 <tr>
-                    <foreach name="title_lists" item="row1" key='key1'>
-                        <td>
-                            <if condition="isset($row[$key1])">{$row[$key1]}
-                                <else/>未定
-                            </if>
-                        </td>
+                    <foreach name="title_lists" item="row">
+                        <th>
+                            {$row}
+                        </th>
                     </foreach>
                 </tr>
-            </foreach>
-        </tbody>
-        <!-- <thead>
+            </thead>
+            <tbody>
+                <foreach name="list_data" item="row" key='key'>
+                    <tr>
+                        <foreach name="title_lists" item="row1" key='key1'>
+                            <td>
+                                <if condition="isset($row[$key1])">{$row[$key1]}
+                                    <else/>未定
+                                </if>
+                            </td>
+                        </foreach>
+                    </tr>
+                </foreach>
+            </tbody>
+            <!-- <thead>
             <tr>
                 <foreach name="title_lists" item="row">
                     <th>
@@ -88,5 +88,6 @@
                 </foreach>
             </tr>
         </thead> -->
-    </table>
+        </table>
+    </div>
 </block>

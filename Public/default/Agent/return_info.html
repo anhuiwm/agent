@@ -15,50 +15,53 @@
     </form>
     </br>
 
- 
-       
-    <table class="table  datalist  table-hover">
-        <thead>
-            <tr>
-                <foreach name="title_lists" item="row">
-                    <th>
-                        {$row}
-                    </th>
-                </foreach>
-                <if condition="$auth_group != 11">
-                    <th class="tright pad-r21" scope="row">操作</th>
-                 </if>
-</tr>
-        </thead>
-        <tbody>
-            <foreach name="list_data" item="row" key='key'>
+
+    <div style="overflow:scroll;">
+        <table class="table  datalist  table-hover">
+            <thead>
                 <tr>
-                    <foreach name="title_lists" item="row1" key='key1'>
-                        <td>
-                            <if condition="isset($row[$key1])">
-                                {$row[$key1]}
-                                <else />未定
-                            </if>
-                        </td>
+                    <foreach name="title_lists" item="row">
+                        <th>
+                            {$row}
+                        </th>
                     </foreach>
                     <if condition="$auth_group != 11">
-                        <td class="tright pad-r21" scope="row">
-                            <a class="abtn" href="{:U('Agent/Command/return_res',array('id'=>$row['id']))}">返现</a>
-                        </td>
+                        <th class="tright pad-r21" scope="row">操作</th>
+                    </if>
+                </tr>
+            </thead>
+            <tbody>
+                <foreach name="list_data" item="row" key='key'>
+                    <tr>
+                        <foreach name="title_lists" item="row1" key='key1'>
+                            <td>
+                                <if condition="isset($row[$key1])">
+                                    {$row[$key1]}
+                                    <else />未定
+                                </if>
+                            </td>
+                        </foreach>
+                        <if condition="$auth_group != 11">
+                            <td class="tright pad-r21" scope="row">
+                                <a class="abtn" href="{:U('Agent/Command/return_res',array('id'=>$row['id']))}">返现</a>
+                            </td>
                         </if>
 
-</tr>
-            </foreach>
-        </tbody>
-        <thead>
-            <tr>
-                <foreach name="title_lists" item="row">
-                    <th>
-                        {$row}
-                    </th>
+                    </tr>
                 </foreach>
-                <th class="tright pad-r21" scope="row">操作</th>
-            </tr>
-        </thead>
-    </table>
+            </tbody>
+            <thead>
+                <tr>
+                    <foreach name="title_lists" item="row">
+                        <th>
+                            {$row}
+                        </th>
+                    </foreach>
+                    <if condition="$auth_group != 11">
+                        <th class="tright pad-r21" scope="row">操作</th>
+                    </if>
+                </tr>
+            </thead>
+        </table>
+    </div>
 </block>

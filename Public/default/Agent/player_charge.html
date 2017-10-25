@@ -3,58 +3,59 @@
     <form method="post" class="myforms" action="{:U('Agent/Command/player_charge')}">
 
         <if condition="isset($gameid)">
-            <input type="text" class="form-control"  value={$gameid} name="gameid"> 或
-        <else/>
-            <input type="text" class="form-control" placeholder="GameID"  name="gameid"> 或
+            <input type="text" class="form-control" value={$gameid} name="gameid"> 或
+            <else/>
+            <input type="text" class="form-control" placeholder="GameID" name="gameid"> 或
         </if>
-        
+
         <input type="text" class="form-control" placeholder="账户" name="accountname">或
         <input type="text" class="form-control" placeholder="昵称" name="nickname">
         <button class="btn btn-info btn-sm ">查询</button>
     </form>
-
-    <table class="table  datalist  table-hover">
-        <thead>
-            <tr>
-                <foreach name="title_lists" item="row">
-                    <th>
-                        {$row}
-                    </th>
-                </foreach>
-                <th class="tright pad-r21" scope="row">充值</th>
-                <th class="tright pad-r21" scope="row">记录</th>
-            </tr>
-        </thead>
-        <tbody>
-            <foreach name="list_data" item="row" key='key'>
+    <div style="overflow:scroll;">
+        <table class="table  datalist  table-hover">
+            <thead>
                 <tr>
-                    <foreach name="title_lists" item="row1" key='key1'>
-                        <td>
-                            <if condition="isset($row[$key1])">{$row[$key1]}
-                                <else/>未定
-                            </if>
-                        </td>
+                    <foreach name="title_lists" item="row">
+                        <th>
+                            {$row}
+                        </th>
                     </foreach>
-
-                    <td class="tright pad-r21" scope="row">
-                        <a class="abtn" href="{:U('Agent/Command/charge_cashpoint',array('userid'=>$row['userid']))}"> 充值点券</a>
-                    </td>
-                    <td class="tright pad-r21" scope="row">
-                        <a class="abtn" href="{:U('Agent/Command/player_charge_log',array('userid'=>$row['userid']))}"> 充值记录</a>
-                    </td>
+                    <th class="tright pad-r21" scope="row">充值</th>
+                    <th class="tright pad-r21" scope="row">记录</th>
                 </tr>
-            </foreach>
-        </tbody>
-        <thead>
-            <tr>
-                <foreach name="title_lists" item="row">
-                    <th>
-                        {$row}
-                    </th>
+            </thead>
+            <tbody>
+                <foreach name="list_data" item="row" key='key'>
+                    <tr>
+                        <foreach name="title_lists" item="row1" key='key1'>
+                            <td>
+                                <if condition="isset($row[$key1])">{$row[$key1]}
+                                    <else/>未定
+                                </if>
+                            </td>
+                        </foreach>
+
+                        <td class="tright pad-r21" scope="row">
+                            <a class="abtn" href="{:U('Agent/Command/charge_cashpoint',array('userid'=>$row['userid']))}"> 充值点券</a>
+                        </td>
+                        <td class="tright pad-r21" scope="row">
+                            <a class="abtn" href="{:U('Agent/Command/player_charge_log',array('userid'=>$row['userid']))}"> 充值记录</a>
+                        </td>
+                    </tr>
                 </foreach>
-                <th class="tright pad-r21" scope="row">充值</th>
-                <th class="tright pad-r21" scope="row">记录</th>
-            </tr>
-        </thead>
-    </table>
+            </tbody>
+            <thead>
+                <tr>
+                    <foreach name="title_lists" item="row">
+                        <th>
+                            {$row}
+                        </th>
+                    </foreach>
+                    <th class="tright pad-r21" scope="row">充值</th>
+                    <th class="tright pad-r21" scope="row">记录</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
 </block>

@@ -20,77 +20,78 @@
             document.form.action = "{:U('GmTool/Command/downcdkey')}";
         }
     </script>-->
-    <table class="table  datalist  table-hover">
-        <thead>
-            <tr>
-                <!--<th style="font-size:12px;">
+    <div style="overflow:scroll;">
+        <table class="table  datalist  table-hover">
+            <thead>
+                <tr>
+                    <!--<th style="font-size:12px;">
                     <input type="checkbox" class="select_all" name="select_all">
                 </th>-->
-                <foreach name="title_lists" item="row">
-                    <th>
-                        {$row}
-                    </th>
-                </foreach>
-                <!--<th class="tright pad-r21" scope="row">合计额度</th>
+                    <foreach name="title_lists" item="row">
+                        <th>
+                            {$row}
+                        </th>
+                    </foreach>
+                    <!--<th class="tright pad-r21" scope="row">合计额度</th>
                 <th class="tright pad-r21" scope="row">合计充值</th>
                 <th class="tright pad-r21" scope="row">合计返现</th>-->
-            </tr>
-        </thead>
-        <tbody>
-            <foreach name="list_data" item="row" key='key'>
-                <tr>
-                    <!--<td style="font-size:12px;">
+                </tr>
+            </thead>
+            <tbody>
+                <foreach name="list_data" item="row" key='key'>
+                    <tr>
+                        <!--<td style="font-size:12px;">
                         <input type="checkbox" name="select_id[]" value="{$row['id']}">
                     </td>-->
-                    <!--<if condition="$list_img_show neq false">
+                        <!--<if condition="$list_img_show neq false">
                         <td><img src="{$row[$list_img_show]}" width=42 height=42 style="border:1px solid #ccc;padding:2px;"></td>
                     </if>-->
-                    <foreach name="title_lists" item="row1" key='key1'>
-                        <td>
-                            <if condition="isset($row[$key1])">
-                                {$row[$key1]}
-                                <else />未定
-                            </if>
-                            <!--{$row[$key1]|get_model_value=""}-->
-                        </td>
-                    </foreach>
+                        <foreach name="title_lists" item="row1" key='key1'>
+                            <td>
+                                <if condition="isset($row[$key1])">
+                                    {$row[$key1]}
+                                    <else />未定
+                                </if>
+                                <!--{$row[$key1]|get_model_value=""}-->
+                            </td>
+                        </foreach>
 
-                </tr>
-            </foreach>
-        </tbody>
-        <thead>
-            <tr>
-                <!--<th style="font-size:12px;">
+                    </tr>
+                </foreach>
+            </tbody>
+            <thead>
+                <tr>
+                    <!--<th style="font-size:12px;">
                     <input type="checkbox" class="select_all" name="select_all">
                 </th>-->
-                <foreach name="title_lists" item="row">
-                    <th>
-                        {$row}
-                    </th>
-                </foreach>
-                <!--<th class="tright pad-r21" scope="row">{$totalshare}</th>
+                    <foreach name="title_lists" item="row">
+                        <th>
+                            {$row}
+                        </th>
+                    </foreach>
+                    <!--<th class="tright pad-r21" scope="row">{$totalshare}</th>
                 <th class="tright pad-r21" scope="row">{$totalcharge}</th>
                 <th class="tright pad-r21" scope="row">{$totalreturn}</th>-->
-            </tr>
-        </thead>
-        
-        <thead>
-            <tr>
-                <!--<th style="font-size:12px;">
+                </tr>
+            </thead>
+
+            <thead>
+                <tr>
+                    <!--<th style="font-size:12px;">
                 <input type="checkbox" class="select_all" name="select_all">
             </th>-->
-                <foreach name="total_lists" item="row">
-                    <th>
-                        {$row}
-                    </th>
-                </foreach>
-                <!--<th class="tright pad-r21" scope="row">{$totalshare}</th>
+                    <foreach name="total_lists" item="row">
+                        <th>
+                            {$row}
+                        </th>
+                    </foreach>
+                    <!--<th class="tright pad-r21" scope="row">{$totalshare}</th>
                 <th class="tright pad-r21" scope="row">{$totalcharge}</th>
                 <th class="tright pad-r21" scope="row">{$totalreturn}</th>-->
-            </tr>
-        </thead>
-    </table>
-
+                </tr>
+            </thead>
+        </table>
+    </div>
     <!--<form action="" method="GET">
     <div class="page">{$page}&nbsp;
     <span>跳至<input type="text" name="p" value="{$_GET['p']}"  style="padding:4px 6px;border:1px solid #ccc;border-radius: 4px;width: 50px;">页</span><input type="submit"  class="btn btn-info btn-sm" value="确认">

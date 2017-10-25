@@ -1060,17 +1060,30 @@ function is_ssl() {
  * @return void
  */
 function redirect($url, $time=0, $msg='') {
+
+    //file_put_contents('wmredlog.txt', "222url:".$url.PHP_EOL, FILE_APPEND);
+    //echo "<script> alert('no loginid'); </script>"; 
+    //echo "<meta http-equiv='Refresh' content='{$time};URL={$url}'>"; 
+    
     //多行URL地址支持
     $url        = str_replace(array("\n", "\r"), '', $url);
     if (empty($msg))
         $msg    = "系统将在{$time}秒之后自动跳转到{$url}！";
     if (!headers_sent()) {
-        // redirect
+        //redirect
         if (0 === $time) {
             header('Location: ' . $url);
         } else {
             header("refresh:{$time};url={$url}");
-            echo($msg);
+            //echo "<script> alert('{$msg}'); </script>"; 
+            //echo "<dialbuog style=\"text-align:center;\" open>$msg</dialog>"; 
+            //$rs = '<div style="text-align:center;" ><input style="height:50px;font-size:20px;" type="submit"  value='.$msg.' /></div>';
+            $rs = '<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  
+            <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <div style="text-align:center;"  > </br></br></br><span class="label label-info">'.$msg.'</span></div>';
+            echo $rs;
+            //echo($msg);
         }
         exit();
     } else {

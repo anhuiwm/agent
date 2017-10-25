@@ -272,6 +272,40 @@ class CommandController extends AgentController {
         }
         $this->display('Agent:charge');
     }
+
+
+    public function wx_charge(){
+        //dump($id);
+        $this->title_lists = array(
+            "id"=>"ID",
+            "username"=>"账户",
+            "name"=>"姓名",
+            //"auth_group"=>"权限组",
+            //"status"=>"审核状态",
+            "hold_share"=>"持有额度",
+            //"apply_remark"=>"申请备注",
+            //"handle_remark"=>"处理备注",
+            //"invite_code"=>"邀请码",
+            //"add_time"=>"申请时间",
+            //"handle_time"=>"处理时间"
+            );
+
+            $id = $_SESSION['user']['user_id'];
+            $is_super = $_SESSION['user']['is_super'];
+            if($is_super==1){
+                $sql = "select id, username, auth_group, status, name, apply_remark, handle_remark, hold_share,invite_code, add_time,handle_time from xq_user where auth_group=11 and status =2 ";                
+            }
+            else if(!empty($id)){
+               $sql = "select id, username, auth_group, status, name, apply_remark, handle_remark, hold_share,invite_code, add_time,handle_time from xq_user where auth_group=11 and status =2 "."and id={$id}";
+           }
+           $this->list_data= M("user")->query($sql);
+          $this->display('Agent:wx_charge');
+    }
+
+    public function wx_charge_res(){
+          $this->display('Agent:wx_charge_res');
+    }
+
     public function charge_res(){
         $id = 0;
         if(IS_GET){
@@ -354,10 +388,6 @@ class CommandController extends AgentController {
             }
             $sql = "select hold_share from xq_user where id = {$id}"; 
             $res = M("user")->query($sql);
-            dump($res);
-            dump($res);
-            dump($res);
-            dump($res);
             $_SESSION['user']['hold_share'] = $res[0]["hold_share"];
            $this->charge();
        }
@@ -454,9 +484,6 @@ class CommandController extends AgentController {
         if(IS_POST){
             if($auth_group==11){
               $username =  $_SESSION['user']['username'];
-              //dump($_SESSION['user']['username']);
-              //dump($_SESSION['user']['username']);
-              //dump($_SESSION['user']['username']);
             }else{
               $username = $_POST["username"];
             }
@@ -555,6 +582,7 @@ public function return_info(){
               if(empty($username)){
                 $this->redirect('Agent:agent_info','',3, '请输入代理账户!!!');
                 }
+                $sql.=" where username='{$username}'";
             }else{
               $username = $_POST["username"];
               if(!empty($username)){
@@ -706,7 +734,7 @@ a.GameTime,a.TitleID,a.OnlineSec,a.GoldBulletNum,a.NobilityPoint,a.AddupCheckNum
 	                left join fishgamedata as c on c.UserID = b.UserID 
 	                where b.GameID= {$gameid};
                 ";
-               $res =  M("accountinfo",null,$db_config)->query($sql);
+              // $res =  M("accountinfo",null,$db_config)->query($sql);
            }else  if(!empty($userid)){
                $sql = "select	a.AccountName,a.FishExp,a.LastLogonTime,a.Production, a.IsRobot,a.FreezeEndTime,a.RsgIP, a.UserID,a.NickName,a.FishLevel,a.FaceID,a.Gender,a.IsOnline,a.AchievementPoint,a.TitleID,
 					a.CharmArray ,a.LastLogonIp,a.IsShowIpAddress, a.VipLevel,a.TotalRechargeSum,a.MonthCardID,a.MonthCardEndTime,
@@ -720,7 +748,7 @@ a.GameTime,a.TitleID,a.OnlineSec,a.GoldBulletNum,a.NobilityPoint,a.AddupCheckNum
 	                left join fishgamedata as c on c.UserID = b.UserID 
 	                where a.UserID= {$userid};
                 ";
-               $res =  M("accountinfo",null,$db_config)->query($sql);
+              // $res =  M("accountinfo",null,$db_config)->query($sql);
            }else  if(!empty($account)){
                $sql = "select	a.AccountName,a.FishExp,a.LastLogonTime,a.Production, a.IsRobot,a.FreezeEndTime,a.RsgIP, a.UserID,a.NickName,a.FishLevel,a.FaceID,a.Gender,a.IsOnline,a.AchievementPoint,a.TitleID,
 					a.CharmArray ,a.LastLogonIp,a.IsShowIpAddress, a.VipLevel,a.TotalRechargeSum,a.MonthCardID,a.MonthCardEndTime,
@@ -734,7 +762,7 @@ a.GameTime,a.TitleID,a.OnlineSec,a.GoldBulletNum,a.NobilityPoint,a.AddupCheckNum
 	                left join fishgamedata as c on c.UserID = b.UserID 
 	                where a.AccountName= '{$account}';
                 ";
-               $res =  M("accountinfo",null,$db_config)->query($sql);
+              // $res =  M("accountinfo",null,$db_config)->query($sql);
            }else  if(!empty($nick)){
                $sql = "select	a.AccountName,a.FishExp,a.LastLogonTime,a.Production, a.IsRobot,a.FreezeEndTime,a.RsgIP, a.UserID,a.NickName,a.FishLevel,a.FaceID,a.Gender,a.IsOnline,a.AchievementPoint,a.TitleID,
 					a.CharmArray ,a.LastLogonIp,a.IsShowIpAddress, a.VipLevel,a.TotalRechargeSum,a.MonthCardID,a.MonthCardEndTime,
@@ -748,7 +776,10 @@ a.GameTime,a.TitleID,a.OnlineSec,a.GoldBulletNum,a.NobilityPoint,a.AddupCheckNum
 	                left join fishgamedata as c on c.UserID = b.UserID 
 	                where a.NickName= '{$nick}';
                 ";
-               $res =  M("accountinfo",null,$db_config)->query($sql);
+              
+           }
+           if(!empty($sql)){
+           $res =  M("accountinfo",null,$db_config)->query($sql);
            }
            if($res){
            $this->list_data = $res;

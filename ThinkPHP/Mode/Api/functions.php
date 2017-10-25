@@ -690,6 +690,7 @@ function dump($var, $echo=true, $label=null, $strict=true) {
  * @return void
  */
 function redirect($url, $time=0, $msg='') {
+    //file_put_contents('wmredlog.txt', "msg:".$msg.PHP_EOL, FILE_APPEND);
     //多行URL地址支持
     $url        = str_replace(array("\n", "\r"), '', $url);
     if (empty($msg))

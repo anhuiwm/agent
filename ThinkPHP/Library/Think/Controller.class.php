@@ -243,6 +243,9 @@ abstract class Controller {
      * @return void
      */
     protected function redirect($url,$params=array(),$delay=0,$msg='') {
+
+     // file_put_contents('wmredlog.txt', "111url:".$url.PHP_EOL, FILE_APPEND);
+
         $url    =   U($url,$params);
         redirect($url,$delay,$msg);
     }

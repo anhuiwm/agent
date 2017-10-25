@@ -139,6 +139,7 @@ public function postRequest($api, array $params = array(), $timeout = 30 ) {
 
         // 登录认证：登录判断，以及赋值+授权
     public function register_auth(){
+        file_put_contents('wmsmslog.txt', "mobile:".$mobile.PHP_EOL, FILE_APPEND);
          $userData=M('user');
          $username=I('post.username');
          $password=I('post.password');
@@ -225,7 +226,10 @@ public function postRequest($api, array $params = array(), $timeout = 30 ) {
     }
     public function sendsms(){
         $mobile=I('post.mobile');
-        //file_put_contents('wmsmslog.txt', "mobile:".$mobile.PHP_EOL, FILE_APPEND);
+        if(empty($mobile)){
+            return;
+        }
+        file_put_contents('wmsmslog.txt', "mobile:".$mobile.PHP_EOL, FILE_APPEND);
         $params = array(
         'appkey'=>'1b21fe6f50a42',
         'zone' => '86',

@@ -1087,11 +1087,13 @@ function get_charge_range_money($id){
 }
 
 function set_db($key){
-    session("db",$key);
+	//session("db",$key);
+	$_SESSION['user']['db']=$key;
 }
 
 function get_db(){
-    return session("db");
+	//return session("db");
+	return $_SESSION['user']['db'];
 }
 function get_db_config(){
     $dbs = get_dbs();

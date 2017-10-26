@@ -52,9 +52,11 @@
                         </select>
                     </li>
                 </ul>-->
- 
+
                 <ul class="nav navbar-nav navbar-mid header-tools">
-                    <li><a href="#"></a></li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-mid header-tools">
@@ -75,13 +77,14 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">服务器:{$db}<span class="caret"></span></a>
                     </li>-->
 
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{$_SESSION['user']['username']} <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">修改个人资料</a></li>
                             <li><a href="#">修改密码</a></li>
                         </ul>
-                    </li>
+                    </li> -->
+                    <li><a href="#">{$_SESSION['user']['username']}</a></li>
                     <li><a href="{:U('Auth/Index/logout')}">注销系统</a></li>
                 </ul>
 

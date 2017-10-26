@@ -41,26 +41,7 @@ return array(
          51=>array("money"=>"1","name"=>"一元豪礼(活动用)")
     ),
         'DBS' =>array(
-        //  '10.0.0.168'=>array(
-        //     'DB_TYPE'=>'mysql',
-        //     'DB_HOST'=>'10.0.0.168',
-        //     'DB_NAME'=>'fishgame',
-        //     'DB_USER'=>'root',
-        //     'DB_PWD'=>'root',
-        //     'DB_PORT'=>'3306',
-        //     'url'=> "http://10.0.0.168:1680/pay_callback_lj.clkj",
-        //     ),
-
-        // '测试106.15.198.179'=>array(
-        //     'DB_TYPE'=>'mysql',
-        //     'DB_HOST'=>'106.15.198.179',
-        //     'DB_NAME'=>'fishgame',
-        //     'DB_USER'=>'DingRuo321Fish',
-        //     'DB_PWD'=>'!@#dmq1987.',
-        //     'DB_PORT'=>'3306',
-        //     'url'=> "http://106.15.198.179:1680/pay_callback_lj.clkj",
-        //     ),
-        '正式139.196.96.86'=>array(
+        '正式服'=>array(
             'DB_TYPE'=>'mysql',
             'DB_HOST'=>'rm-uf6mozrl6o240v725o.mysql.rds.aliyuncs.com',
             'DB_NAME'=>'fishgame',
@@ -69,5 +50,24 @@ return array(
             'DB_PORT'=>'3306',
             'url'=> "http://139.196.96.86:1680/pay_callback_lj.clkj",
             ),
+        '测试服'=>array(
+            'DB_TYPE'=>'mysql',
+            'DB_HOST'=>'106.15.198.179',
+            'DB_NAME'=>'fishgame',
+            'DB_USER'=>'DingRuo321Fish',
+            'DB_PWD'=>'!@#dmq1987.',
+            'DB_PORT'=>'3306',
+            'url'=> "http://106.15.198.179:1680/pay_callback_lj.clkj",
+            ),
+        '内网'=>array(
+            'DB_TYPE'=>'mysql',
+            'DB_HOST'=>'10.0.0.168',
+            'DB_NAME'=>'fishgame',
+            'DB_USER'=>'root',
+            'DB_PWD'=>'root',
+            'DB_PORT'=>'3306',
+            'url'=> "http://10.0.0.168:1680/pay_callback_lj.clkj",
+            ),
+
     )
 );

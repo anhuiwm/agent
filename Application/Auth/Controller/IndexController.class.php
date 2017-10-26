@@ -69,6 +69,10 @@ public function postRequest($api, array $params = array(), $timeout = 30 ) {
     	$this->display("Public:register");
     }
 
+    public function resetpasswd(){
+    	$this->display("Public:resetpasswd");
+    }
+
     //登出界面
     public function logout(){
     	unset($_SESSION['user']);
@@ -137,14 +141,14 @@ public function postRequest($api, array $params = array(), $timeout = 30 ) {
     }
 
 
-        // 登录认证：登录判断，以及赋值+授权
-    public function register_auth(){
-        file_put_contents('wmsmslog.txt', "mobile:".$mobile.PHP_EOL, FILE_APPEND);
+
+    public function resetpasswd_auth(){
+        file_put_contents('wmsmslog.txt', "mobilereset:".$mobile.PHP_EOL, FILE_APPEND);
          $userData=M('user');
          $username=I('post.username');
          $password=I('post.password');
          $confirm_password = I('post.confirm_password');
-         $agree=I('post.agree');
+         //$agree=I('post.agree');
          $code = I('post.auth_code');
          if (!isset($password) ){
            alert('密码为空！');
@@ -161,15 +165,11 @@ public function postRequest($api, array $params = array(), $timeout = 30 ) {
            goback();
          }
 
-         if ( $agree!=1 ){
-           alert('请先同意用户协议！');
-           goback();
-         }
 
          $umap['username']=$username;
          $exist_user=M('user')->where($umap)->find();
-         if ($exist_user) {
-           alert('手机账户已注册！');
+         if (empty($exist_user)) {
+           alert('手机账户不存在！');
            goback();
          }
          $mobile = $username;
@@ -180,18 +180,12 @@ public function postRequest($api, array $params = array(), $timeout = 30 ) {
         }
         else{
             $otdata=array();
+            $map = array();
             $otdata['password']=md5($password);
-            $otdata['username']=$username;
-            $otdata['is_super']=0;
-            $otdata['is_active']=0;
-            $otdata['auth_group']=11;
-            $otdata['orderid']=0;
-            $otdata['status']= 1;//待审核
-            $otdata['name']= I('post.name');
-            $otdata['apply_remark'] = I('post.remark');
-            $otdata['add_time'] = date("Y-m-d H:i:s");
-           if( $id = $userData->add($otdata)){
-               $this->redirect('Auth/Index/login','',3, '亲，申请成功,请您等待客服联系!');
+            $map['username']=$username;
+
+           if( $id = $userData->where($map)->save($otdata)){
+               $this->redirect('Auth/Index/login','',3, '亲，密码重置成功,请重新登录!');
             }
             else{
                alert('系统错误,请联系管理员！');
@@ -199,6 +193,69 @@ public function postRequest($api, array $params = array(), $timeout = 30 ) {
             }
         }
     }
+
+            // 登录认证：登录判断，以及赋值+授权
+            public function register_auth(){
+                file_put_contents('wmsmslog.txt', "mobile:".$mobile.PHP_EOL, FILE_APPEND);
+                 $userData=M('user');
+                 $username=I('post.username');
+                 $password=I('post.password');
+                 $confirm_password = I('post.confirm_password');
+                 $agree=I('post.agree');
+                 $code = I('post.auth_code');
+                 if (!isset($password) ){
+                   alert('密码为空！');
+                   goback();
+                 }
+        
+                if ( $password!=$confirm_password ){
+                   alert('密码不一致！');
+                   goback();
+                 }
+        
+                 if (!isset($username) ){
+                   alert('手机号为空！');
+                   goback();
+                 }
+        
+                 if ( $agree!=1 ){
+                   alert('请先同意用户协议！');
+                   goback();
+                 }
+        
+                 $umap['username']=$username;
+                 $exist_user=M('user')->where($umap)->find();
+                 if ($exist_user) {
+                   alert('手机账户已注册！');
+                   goback();
+                 }
+                 $mobile = $username;
+                if(!$this->checksms($mobile,$code))
+                {
+                  alert('验证码错误,请重新输入！');
+                   goback();
+                }
+                else{
+                    $otdata=array();
+                    $otdata['password']=md5($password);
+                    $otdata['username']=$username;
+                    $otdata['is_super']=0;
+                    $otdata['is_active']=0;
+                    $otdata['auth_group']=11;
+                    $otdata['orderid']=0;
+                    $otdata['status']= 1;//待审核
+                    $otdata['name']= I('post.name');
+                    $otdata['apply_remark'] = I('post.remark');
+                    $otdata['add_time'] = date("Y-m-d H:i:s");
+                   if( $id = $userData->add($otdata)){
+                       $this->redirect('Auth/Index/login','',3, '亲，申请成功,请您等待客服联系!');
+                    }
+                    else{
+                       alert('系统错误,请联系管理员！');
+                       goback();
+                    }
+                }
+            }
 
     public function checksms($mobile,$code){
         //$mobile=I('post.mobile');

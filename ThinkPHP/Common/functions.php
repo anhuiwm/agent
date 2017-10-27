@@ -1067,6 +1067,7 @@ function redirect($url, $time=0, $msg='') {
     
     //多行URL地址支持
     $url        = str_replace(array("\n", "\r"), '', $url);
+    //$url        = "index.php/".$url;
     if (empty($msg))
         $msg    = "系统将在{$time}秒之后自动跳转到{$url}！";
     if (!headers_sent()) {
@@ -1081,7 +1082,7 @@ function redirect($url, $time=0, $msg='') {
             $rs = '<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  
             <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
             <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-            <div style="text-align:center;"  > </br></br></br><span class="label label-info">'.$msg.'</span></div>';
+            <div style="text-align:center;"  > </br></br></br><span style="font-size:20px" class="label label-info">'.$msg.'</span></div>';
             echo $rs;
             //echo($msg);
         }

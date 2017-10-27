@@ -70,10 +70,13 @@ class AgentController extends Controller {
 
         // 这里做路径导航
         $path_nav="";
-        $path_nav='<li><a href="'.__ROOT__.'/System/Index/index">系统首页</a></li>';
+        //$path_nav='<li><a href="'.__ROOT__.'/System/Index/index">系统首页</a></li>';
+        $path_nav='<li><a href="/index.php/Agent/Index/index.html">系统首页</a></li>';
+        
         if ($Think.MODULE_NAME) {
             $thisdd=get_menu(array('node_name'=>$Think.MODULE_NAME),'find');
-            $path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'">'.$thisdd['title'].'</a></li>';
+            //$path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'">'.$thisdd['title'].'</a></li>';
+            $path_nav=$path_nav.'<li><a href="/index.php/'.$Think.MODULE_NAME.'">'.$thisdd['title'].'</a></li>';
         }
         if ($Think.CONTROLLER_NAME) {
             $thisdd=get_menu(array('node_name'=>$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME),'find');
@@ -82,7 +85,9 @@ class AgentController extends Controller {
 
         if ($Think.ACTION_NAME) {
             $thisdd=get_menu(array('node_name'=>$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME),'find');
-            $path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME.'">'.$thisdd['title'].'</a></li>';
+            //$path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME.'">'.$thisdd['title'].'</a></li>';
+            $path_nav=$path_nav.'<li><a href="/index.php/'.$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME.'">'.$thisdd['title'].'</a></li>';
+ 
         }
         $this->path_nav=$path_nav;
 

@@ -56,13 +56,33 @@ class SystemController extends Controller {
             $this->redirect('/System','',5, '对不起，你没有操作权限,5秒后跳转至首页...');
         }
 
+// if (0)
+//         // 这里做路径导航
+//         $path_nav="";
+//         $path_nav='<li><a href="'.__ROOT__.'/System/Index/index">系统首页</a></li>';
+//         if ($Think.MODULE_NAME) {
+//             $thisdd=get_menu(array('node_name'=>$Think.MODULE_NAME),'find');
+//             $path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'">'.$thisdd['title'].'</a></li>';
+//         }
+//         if ($Think.CONTROLLER_NAME) {
+//             $thisdd=get_menu(array('node_name'=>$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME),'find');
+//             $path_nav=$path_nav.'<li><a>'.$thisdd['title'].'</a></li>';
+//         }
 
+//         if ($Think.ACTION_NAME) {
+//             $thisdd=get_menu(array('node_name'=>$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME),'find');
+//             $path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME.'">'.$thisdd['title'].'</a></li>';
+//         }
+//         $this->path_nav=$path_nav;
         // 这里做路径导航
         $path_nav="";
-        $path_nav='<li><a href="'.__ROOT__.'/System/Index/index">系统首页</a></li>';
+        //$path_nav='<li><a href="'.__ROOT__.'/System/Index/index">系统首页</a></li>';
+        $path_nav='<li><a href="/index.php/System/Index/index.html">系统首页</a></li>';
+        
         if ($Think.MODULE_NAME) {
             $thisdd=get_menu(array('node_name'=>$Think.MODULE_NAME),'find');
-            $path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'">'.$thisdd['title'].'</a></li>';
+            //$path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'">'.$thisdd['title'].'</a></li>';
+            $path_nav=$path_nav.'<li><a href="/index.php/'.$Think.MODULE_NAME.'">'.$thisdd['title'].'</a></li>';
         }
         if ($Think.CONTROLLER_NAME) {
             $thisdd=get_menu(array('node_name'=>$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME),'find');
@@ -71,10 +91,11 @@ class SystemController extends Controller {
 
         if ($Think.ACTION_NAME) {
             $thisdd=get_menu(array('node_name'=>$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME),'find');
-            $path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME.'">'.$thisdd['title'].'</a></li>';
+            //$path_nav=$path_nav.'<li><a href="'.__ROOT__.'/'.$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME.'">'.$thisdd['title'].'</a></li>';
+            $path_nav=$path_nav.'<li><a href="/index.php/'.$Think.MODULE_NAME.'/'.$Think.CONTROLLER_NAME.'/'.$Think.ACTION_NAME.'">'.$thisdd['title'].'</a></li>';
+ 
         }
         $this->path_nav=$path_nav;
-
         // 判断用户是否为配置文件中的超级管理员
         // 如果是配置文件中的超级管理员，才能访问其他模块，否则只能访问商户中心模块
 
